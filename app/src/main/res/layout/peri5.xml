@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+
+           <android.support.v7.widget.CardView
+               xmlns:card_view="http://schemas.android.com/apk/res-auto"
+               xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:paddingTop="10dp"
+               android:paddingBottom="10dp"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               card_view:cardCornerRadius="5dp">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:orientation="vertical">
+
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:orientation="vertical">
+
+
+                       <TextView
+                           android:id="@+id/textView38"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:text="Conditions for transfering data between microprocessor and peripherals"
+                           android:textColor="@color/colorPrimary"
+                           android:textSize="25dp"
+                           android:textStyle="bold" />
+
+                       <TextView
+                           android:id="@+id/textView39"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:text="The primary function of the µp is to accept data from input, read instructions from memory, process data according to the instructions and send result to output using logic cct. (Hardware)  and writing instructions (software) to enable the µp to comm. with these peripherals is called interacting.
+The µp communication with peripherals in either of two formats: asynchronous or synchronous. Data transfer between µp and its peripherals can take place under various conditions as shown below:
+ "
+                           android:textSize="20dp" />
+
+                       <TextView
+                           android:id="@+id/textView40"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:text="Condition of data transfer "
+                           android:textColor="@color/colorPrimary"
+                           android:textSize="25dp"
+                           android:textStyle="bold" />
+
+                       <TextView
+                           android:id="@+id/textView41"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:text="The process of data transfer between µp and peripheral is controlled either by µp or by peripheral. "
+                           android:textSize="20dp" />
+
+                       <TextView
+                           android:id="@+id/textView42"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:gravity="center"
+                           android:padding="5dp"
+                           android:text="µp controlled data transfer "
+                           android:textColor="@color/colorAccent"
+                           android:textSize="25dp" />
+
+                       <TextView
+                           android:id="@+id/textView43"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:text="Most peripheral respond slowly in comparison with the speed of the µp, it can take five different conditions: "
+                           android:textSize="20dp" />
+
+                       <TextView
+                           android:id="@+id/textView44"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:padding="5dp"
+                           android:text="1-Unconditional data transfer: in this form of data transfer, the MP assumes that the peripherals are always available, ex: data, and goes on to execute the next instruction. "
+                           android:textSize="20dp" />
+
+                       <TextView
+                           android:id="@+id/textView45"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:padding="5dp"
+                           android:text="2-data transfer with polling: (status check): the MP is kept in a loop to check whether data are available, this is called polling , ex: to read from input keyboard, the MP can keep polling the port until is pressed. "
+                           android:textSize="20dp" />
+
+                       <TextView
+                           android:id="@+id/textView46"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:padding="5dp"
+                           android:text="3-data transfer with interrupts: in this condition where the peripheral is ready to transfer data, it's sends an interrupt signal to the MP. The MP stops the executions of the program accept the data from the peripheral, and then returns to the program. "
+                           android:textSize="20dp" />
+
+                       <TextView
+                           android:id="@+id/textView47"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:padding="5dp"
+                           android:text="4-data transfer with ready signal: when peripheral response time is slower than MP time , the ready signal can be used to add T-states, thus extending the execution time this processor provides sufficient time for the peripheral to complete the data transfer. "
+                           android:textSize="20dp" />
+
+                       <TextView
+                           android:id="@+id/textView48"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:padding="5dp"
+                           android:text="5-data transfer with handshake signals: in this data transfer signals are exchanged between the MP and peripheral prior to actual data transfer, these signals are called handshake signals. "
+                           android:textSize="20dp" />
+
+                       <TextView
+                           android:id="@+id/textView49"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:gravity="center"
+                           android:text="Peripheral-controlled data transfer "
+                           android:textColor="@color/colorAccent"
+                           android:textSize="25dp" />
+
+                       <TextView
+                           android:id="@+id/textView50"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:padding="5dp"
+                           android:text="This is device-controlled I / O this type of data transfer is employed when the peripheral is much faster than the MP.
+For example in case of direct memory access (DMA) controller sends a hold signal to MP , the MP releases its data bus and the address bus to the DMA controller, and the data are transferred at high speed.
+  "
+                           android:textSize="20dp" />
+                   </LinearLayout>
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+           <android.support.v7.widget.CardView
+               xmlns:card_view="http://schemas.android.com/apk/res-auto"
+               xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:paddingTop="10dp"
+               android:paddingBottom="10dp"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               card_view:cardCornerRadius="5dp">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:orientation="vertical">
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Difference between Synchronous transmission and Assynchronus transmission."/>
+
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:orientation="vertical">
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="100dp"
+                           android:background="@android:color/black"
+                           android:orientation="horizontal">
+
+                           <RelativeLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:layout_weight=".33">
+
+                               <TextView
+                                   android:id="@+id/textView10"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:layout_centerHorizontal="true"
+                                   android:layout_centerVertical="true"
+                                   android:text="BASIS FOR COMPARISON"
+                                   android:textAlignment="center"
+                                   android:textColor="#ffffff" />
+                           </RelativeLayout>
+
+                           <RelativeLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:layout_weight=".33">
+
+                               <TextView
+                                   android:id="@+id/textView11"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:layout_centerHorizontal="true"
+                                   android:layout_centerVertical="true"
+                                   android:text="SYNCHRONOUS TRANSMISSION"
+                                   android:textAlignment="center"
+                                   android:textColor="#ffffff" />
+                           </RelativeLayout>
+
+                           <RelativeLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:layout_weight=".33">
+
+                               <TextView
+                                   android:id="@+id/textView12"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:layout_centerHorizontal="true"
+                                   android:layout_centerVertical="true"
+                                   android:text="ASYNCHRONOUS TRANSMISSION"
+                                   android:textAlignment="center"
+                                   android:textColor="#ffffff" />
+                           </RelativeLayout>
+                       </LinearLayout>
+
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="100dp"
+                           android:orientation="horizontal">
+
+                           <RelativeLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:layout_weight=".33">
+
+                               <TextView
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:layout_centerHorizontal="true"
+                                   android:layout_centerVertical="true"
+                                   android:text="Meaning" />
+                           </RelativeLayout>
+
+                           <RelativeLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:layout_weight=".33">
+
+                               <TextView
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:layout_centerHorizontal="true"
+                                   android:layout_centerVertical="true"
+                                   android:text="Sends data in the form of blocks or frames"
+                                   android:textAlignment="center" />
+                           </RelativeLayout>
+
+                           <RelativeLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:layout_weight=".33">
+
+                               <TextView
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:layout_centerHorizontal="true"
+                                   android:layout_centerVertical="true"
+                                   android:text="Sends 1 byte or character at a time"
+                                   android:textAlignment="center" />
+                           </RelativeLayout>
+                       </LinearLayout>
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="100dp"
+                           android:orientation="horizontal">
+
+                           <RelativeLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:layout_weight=".33">
+
+                               <TextView
+                                   android:id="@+id/textView25"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:layout_alignParentLeft="true"
+                                   android:layout_alignParentStart="true"
+                                   android:layout_centerVertical="true"
+                                   android:text="Transmission Speed"
+                                   android:textAlignment="center" />
+                           </RelativeLayout>
+
+                           <RelativeLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:layout_weight=".33">
+
+                               <TextView
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:layout_centerHorizontal="true"
+                                   android:layout_centerVertical="true"
+                                   android:text="Fast" />
+                           </RelativeLayout>
+
+                           <RelativeLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:layout_weight=".33">
+
+                               <TextView
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:layout_centerHorizontal="true"
+                                   android:layout_centerVertical="true"
+                                   android:text="Slow" />
+                           </RelativeLayout>
+                       </LinearLayout>
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="100dp"
+                           android:orientation="horizontal">
+
+                           <RelativeLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:layout_weight=".33">
+
+                               <TextView
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:layout_centerHorizontal="true"
+                                   android:layout_centerVertical="true"
+                                   android:text="Cost" />
+                           </RelativeLayout>
+
+                           <RelativeLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:layout_weight=".33">
+
+                               <TextView
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:layout_centerHorizontal="true"
+                                   android:layout_centerVertical="true"
+                                   android:text="Expensive" />
+                           </RelativeLayout>
+
+                           <RelativeLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:layout_weight=".33">
+
+                               <TextView
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:layout_centerHorizontal="true"
+                                   android:layout_centerVertical="true"
+                                   android:text="Economical" />
+                           </RelativeLayout>
+                       </LinearLayout>
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="100dp"
+                           android:orientation="horizontal">
+
+                           <RelativeLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:layout_weight=".33">
+
+                               <TextView
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:layout_centerHorizontal="true"
+                                   android:layout_centerVertical="true"
+                                   android:text="Time Interval" />
+                           </RelativeLayout>
+
+                           <RelativeLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:layout_weight=".33">
+
+                               <TextView
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:layout_centerHorizontal="true"
+                                   android:layout_centerVertical="true"
+                                   android:text="Constant" />
+                           </RelativeLayout>
+
+                           <RelativeLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:layout_weight=".33">
+
+                               <TextView
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:layout_centerHorizontal="true"
+                                   android:layout_centerVertical="true"
+                                   android:text="Random" />
+                           </RelativeLayout>
+                       </LinearLayout>
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="100dp"
+                           android:orientation="horizontal">
+
+                           <RelativeLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:layout_weight=".33">
+
+                               <TextView
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:layout_centerHorizontal="true"
+                                   android:layout_centerVertical="true"
+                                   android:text="Gap between the data" />
+                           </RelativeLayout>
+
+                           <RelativeLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:layout_weight=".33">
+
+                               <TextView
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:layout_centerHorizontal="true"
+                                   android:layout_centerVertical="true"
+                                   android:text="Absent" />
+                           </RelativeLayout>
+
+                           <RelativeLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:layout_weight=".33">
+
+                               <TextView
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:layout_centerHorizontal="true"
+                                   android:layout_centerVertical="true"
+                                   android:text="Present" />
+                           </RelativeLayout>
+                       </LinearLayout>
+
+                   </LinearLayout>
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+           <android.support.v7.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:layout_marginTop="5dp"
+               android:paddingBottom="10dp"
+               android:paddingTop="10dp"
+               card_view:cardCornerRadius="5dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:padding="10dp">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Eplain dynamic scattering LCD with appropriate diagram"
+                       android:textColor="@color/colorPrimary" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Construction: " />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+
+                       android:text="In the case of dynamic scattering display in absence of an applied voltage, the device is transparent. But, when the voltage is applied, the crystal becomes an efficient scatterer of white light. It consists of a pure nematic liquid crystal in which impurities are added to increase its conductivity, due to ions in them. The liquid crystal filled inbetween two glass plates are coated with transparent in oxide and can act as electrodes. The spacer and scalar help in filling of liquid and to change the liquid level. " />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Working: " />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text=" In the normal state, without application of electric field, all the molecules in the nematic liquid crystal are parallel to the glass plate. The material is transparent. When the electric field is applied, the dipoles of molecules are rotated into alignment in the direction, exactly perpendicular to field direction. Now, the ions are pulled by the electrodes and hence the positive ions will go towards negative potential and vice versa.  Therefore these ions disrupt, the molecules which are orderly arranged and create a small turbulence. Due to turbulence the negative charges are gathered as crests and positive charges are gathered as troughs, with respect to the field direction. " />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Advantages: " />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Ø    It has operating voltage(15 volts) " />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Ø    It consists large power(20 mv) " />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Ø    Life time is very small. " />
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+           <android.support.v7.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:layout_marginTop="5dp"
+               android:paddingBottom="10dp"
+               android:paddingTop="10dp"
+               card_view:cardCornerRadius="5dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:padding="10dp">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Explain RS-232-c/v.24 standard serial interface with appropriate figure." />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="RS-232 stands for Recommend Standard number 232 and C is the latest revision of the standard. The serial ports on most computers use a subset of the RS-232C standard. The full RS-232C standard specifies a 25-pin D connector of which 22 pins are used. Most of these pins are not needed for normal PC communications, and indeed, most new PCs are equipped with male D type connectors having only 9 pins." />
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+           <android.support.v7.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:layout_marginTop="5dp"
+               android:paddingBottom="10dp"
+               android:paddingTop="10dp"
+               card_view:cardCornerRadius="5dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:padding="10dp">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Describe floppy disc controller" />
+
+
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+           <android.support.v7.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:layout_marginTop="5dp"
+               android:paddingBottom="10dp"
+               android:paddingTop="10dp"
+               card_view:cardCornerRadius="5dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:padding="10dp">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Explain the operation of a Dot Matrix printer"
+                       android:textColor="@color/colorPrimary" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="In the 1970s and 1980s, dot-matrix printers were extremely popular in both offices and homes. For a while, they were the only printer that could output graphics or do multiple colors, and once laser printers and inkjet printers entered the market, dot-matrix printers enjoyed a significant cost advantage." />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="The Printhead :" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Dot-matrix printers use a piezoelectric print head that pushes pins out towards the paper, making patterns as it moves across the page. For example, a nine-pin print head might make a capital L by firing all nine pins once to make the vertical line, then firing the bottom pin eight times, one after another, to make the L's tail. Dot-matrix printers with more pins, like 24-pin models, are capable of higher quality printing since they use smaller dots to produce their output." />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="The Ribbon :" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="The ribbon sits between the print head and the paper. When the pins emerge from the print head, they press the ribbon into the paper. Ribbon cartridges typically have a length of pre-inked fabric ribbon wound inside of them. As the printer prints, it advances the ribbon and gradually uses it up, necessitating its replacement." />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Paper Handling :" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="While many dot-matrix printers can accept individual sheets like a laser printer or an inkjet, their strength comes in their ability to work with continuous feed paper. Most dot-matrix printers have a sprocket drive that grabs hold of the pre-punched perforated strips on either side of the special paper and feeds the paper through the printer that way. This enables the printer to generate output in continuous sessions with few paper jams" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Drawbacks :" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Dot-matrix printers have two key drawbacks. The first is that they are very noisy due to the printer pins' hammering effect when they strike the paper. While the noise level varies from printer to printer, expect to hear a cacophonous combination of a loud whine and the thudding sound of the paper feed. Their second drawback is that they produce low resolution output with a visible dot structure. The highest quality dot-matrix printers usually print at 240 dots per inch, which is less than the lowest quality laser printers that can print 300 dots per inch." />
+
+                   <ImageView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/dot" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Advantages" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Dot-matrix printers have two key advantages. The first is that their continuous feed paper-handling systems allow them to work reliably with relatively few paper jams and lets them be loaded with large quantities of paper at once. The second is that they work well with pressure-sensitive business forms that require an impact to generate multiple copies" />
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+
+
+           <android.support.v7.widget.CardView
+               xmlns:card_view="http://schemas.android.com/apk/res-auto"
+               xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:paddingTop="10dp"
+               android:paddingBottom="10dp"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               card_view:cardCornerRadius="5dp">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:orientation="vertical">
+
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:orientation="vertical"
+                       android:weightSum="1">
+
+
+                       <TextView
+                           android:id="@+id/textView26"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:text="Encoding"
+                           android:textColor="@color/colorPrimary"
+                           android:textSize="30dp"
+                           android:textStyle="bold" />
+
+                       <TextView
+                           android:id="@+id/textView27"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:padding="5dp"
+                           android:text="In computer technology, encoding is the process of putting a sequence of characters into a special format for transmission or storage purposes."
+                           android:textSize="20dp" />
+
+                       <TextView
+                           android:id="@+id/textView28"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:text="Working principle of keybord encoder"
+                           android:textColor="@color/colorPrimary"
+                           android:textSize="30dp"
+                           android:textStyle="bold" />
+
+                       <ImageView
+                           android:id="@+id/imageView2"
+                           android:src="@drawable/key"
+
+                           android:layout_width="match_parent"
+                           android:layout_height="400dp"
+
+                           />
+
+                       <TextView
+                           android:id="@+id/textView29"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:text="A row is actived or enabled by placing a voltage on it and a colum sensed for a voltage.If the switch at the intersection of the row and column has been depressed,this will be sensed as the row voltage is transmitted to the column input.The row and column select signals are used to address a ROM which holds the code for each key.The process is repeated for each row and column combination in order to determine whether a key has been pressed and a complete cycle repeated continuously."
+                           android:textSize="20dp" />
+                   </LinearLayout>
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+       </LinearLayout>
+
+
+   </ScrollView>
+</RelativeLayout>

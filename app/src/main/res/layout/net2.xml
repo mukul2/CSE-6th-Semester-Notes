@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <android.support.v7.widget.CardView
+               xmlns:card_view="http://schemas.android.com/apk/res-auto"
+               xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:paddingTop="10dp"
+               android:paddingBottom="10dp"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               card_view:cardCornerRadius="5dp">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:orientation="vertical">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Frame relay "
+    />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Frame relay is a packet-switching telecommunication service designed for cost-efficient data transmission for intermittent traffic between local area networks (LANs) and between endpoints in wide area networks (WANs). The service, once widely available and implemented, is in the process of being discontinued by major Internet service providers. Sprint ended its frame relay service in 2007, while Verizon said it plans to phase out the service in 2015. AT and T stopped offering frame relay in 2012 but said it would support existing customers until 2016."
+                       />
+                   <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Characteristics of Frame Relay"
+                   />
+                   <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="1.	Frame Relay service is a service that supports the transport of data"
+                   />
+                   <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="2.	Frame relay is a connectionless service, meaning that each data packet passing through the network contains -address information"
+                   />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="3.	Frame relay is a service that is provided with a variety of speeds from 56 Kbs up to 25 Mbs."
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="4.	Even though the most used speeds for the service are currently 56 Kbs and 1.544 Mbs"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="5.	Frames are variable in length and goes up to 4,096 bytes"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="6.	Frame Relay is considered to be a Broadband ISDN service"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="7.	One of the unique facets of frame relay service is that the service supports variable size data packets."
+                       />
+
+
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+
+
+
+           <android.support.v7.widget.CardView
+               xmlns:card_view="http://schemas.android.com/apk/res-auto"
+               xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:paddingTop="10dp"
+               android:paddingBottom="10dp"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               card_view:cardCornerRadius="5dp">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Features of frame relay:"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Some important features of frame relay are  :"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="1. Frame relay operates at a high speed (1.544 Mbps to 44.376 Mbps)."
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="2. Frame relay operates only in the physical and data link layers. So it can be easily used in Internet."
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="3. It allows the bursty data."
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="4. It has a large frame size of 9000 bytes. So it can accommodate all local area network frame sizes."
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="5. Frame relay can only detect errors (at the data link layer). But there is no flow control or error control."
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="6. The damaged frame is simply dropped. There is no retransmission. This is to increase the speed. So frame relay needs a reliable medium and protocols having flow and error control."
+                       />
+
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+
+
+           <android.support.v7.widget.CardView
+               xmlns:card_view="http://schemas.android.com/apk/res-auto"
+               xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:paddingTop="10dp"
+               android:paddingBottom="10dp"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               card_view:cardCornerRadius="5dp">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="How frame relay works?"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="• Frame relay can support the Permanent Virtual Circuit (PVC) as well as Switched Virtual Circuits (SVC)."
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="• Whether to use PVC or SVC is decided by the user, based on the data transmission requirements and the budget."
+                       />
+                   <ImageView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/f1"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="• The Frame Relay works on the basis of virtual circuits. These virtual circuits are created and used in the data link layer."
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="• Each virtual circuit is identified by a number called Data Link Connection Identifier (DLCI)."
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="• When a virtual circuit is established, a DTE (Data Transmission Equipment) is provided with a DLCI which it can use to communicate with the remote DTE."
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="• Assume that a virtual circuit has been established between computers A and C using the DLCI numbers of Fig"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="• Then computer A uses DLCI = 68 (i.e. that of C) while sending a packet from A to C. On the other hand, computer C uses DLCI = 30 (that of A) while sending a packet from C to A."
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="• The DLCI numbers are assigned permanently if PVC IS being supported and on a per connection basis if SVC is supported."
+                       />
+
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+
+
+           <android.support.v7.widget.CardView
+               xmlns:card_view="http://schemas.android.com/apk/res-auto"
+               xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:paddingTop="10dp"
+               android:paddingBottom="10dp"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               card_view:cardCornerRadius="5dp">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Frame relay layers"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="• Frame relay has only two layers i.e. physical layer and data link layer."
+                       />
+                   <ImageView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/f2"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Physical layer"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="• Frame relay supports ANSI standards."
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="• No specific protocol is defined for the physical layer. The user can use any protocol which is recognized by ANSI"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Data link layer"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="• A simplified version of HDLC is employed by the frame relay at the data link layer."
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="• A simpler version is used because flow control and error correction is not needed in frame relay."
+                       />
+
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+
+
+           <android.support.v7.widget.CardView
+               xmlns:card_view="http://schemas.android.com/apk/res-auto"
+               xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:paddingTop="10dp"
+               android:paddingBottom="10dp"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               card_view:cardCornerRadius="5dp">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Frame relay frame formate :"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="• Fig. Shows the frame relay frame format. This frame is very similar to the HDLC frame except for the missing control field here.
+• The control field is not needed because flow and error control are not needed.
+• The Flag, FCS and information fields are same as those of HDLC.
+• The address field defines the DLCI along with some other bits required for congestion control and traffic control.
+• Their description is as follows:
+"
+                       />
+
+                   <ImageView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/f3"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="1. DLCI field:
+The first part of DLCI is of 6 bits and the second part is of 4 bits. They together form a 10 bit data link connection identifier.
+"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="2. Command / Response (C / R):
+The C/R bit allows the upper layers to identify a frame as either a command or response. It is not used by the frame relay protocol
+"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="3. Extended Address (EA):
+• This bit indicates whether the current byte is the final byte of the address.
+• If EA = 1 it indicates that the current byte is the final one but if EA = 0, then it tells that another address byte is going to follow.
+"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="4. Forward Explicit Congestion Notification (FECN):
+• This bit can be set by any switch to indicate that traffic is congested in the direction of travel of the frame.
+• The destination is informed about the congestion via this bit.
+"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="5. Backward Explicit Congestion Notification (BECN):
+• This bit indicates the congestion in the direction opposite to the direction of frame travel.
+• It informs the sender about the congestion.
+"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="6. Discard Eligibility (DE):
+• The DE bit indicates the priority level of the frame. In the overload situations a frame may have to be discarded.
+• If DE = 1 then that frame can be discarded in the event of congestion.
+• DE bit can be set by the sender or by any switch in the network
+"
+                       />
+
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+
+
+           <android.support.v7.widget.CardView
+               xmlns:card_view="http://schemas.android.com/apk/res-auto"
+               xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:paddingTop="10dp"
+               android:paddingBottom="10dp"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               card_view:cardCornerRadius="5dp">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Advantages of frame relay:"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Some of the advantages of frame relay are:"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="1. Streamlined communication process.
+2. The number of functions of a protocol at the user-network interface is reduced.
+3. Lower delay.
+4. Higher throughput.
+5. Frame relay can be used at access speeds upto 2 Mbps.
+6. Frame Relay is cost- effective, partly due to the fact that the network buffering requirements are carefully optimized.
+7. Compared to X.25, with its store and forward mechanism and full error correction, network buffering is minimal.
+8. Frame Relay is also much faster than X.25: the frames are switched to their destination with only a few byte times delay, as opposed to several hundred milliseconds delay on X.25.
+"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Disadvantages of frame relay:"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="1. Frames are delivered unreliably.
+2. Packets may not be delivered in the same sequence as that at the sending end.
+3. Packets having errors are simply discarded.
+4. Frame relay does not provide flow control.
+5. It does not provide the acknowledgement of received packets.
+6. Frame discarded in case of network congestion. If congestion occurs in the network, frame (data) is discarded within the network without retransmission of this frame. The sender must perform retransmission control at his own responsibility.
+"
+                       />
+
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+           <android.support.v7.widget.CardView
+               xmlns:card_view="http://schemas.android.com/apk/res-auto"
+               xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:paddingTop="10dp"
+               android:paddingBottom="10dp"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               card_view:cardCornerRadius="5dp">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Congestion control in frame relay networks:"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="• The frame relay network implements a simple congestion control mechanism in which involves congestion notification.
+• The two congestion notification mechanisms are as follows:"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="1. FECN : Forward Explicit Congestion Notification.
+2. BECN: Backward Explicit Congestion Notification.
+"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="• Both these are controlled by a single bit contained in the frame header of frame relay.
+• The frame header of frame relay also contains a Discard Eligibility (DE) bit. It is useful in identifying the less important traffic which can be dropped in the event of congestion.
+• The FECN bit is a part of the address field of the frame header.
+• If the network is congested, the FECN bit is set to 1. When such frames reach the destination, the FECN = 1 indicates the presence of congestion. The flow control can then be initiated or the indication may be ignored.
+• As shown in Fig. the FECN bit travels to the destination i.e. in the direction of transmission.
+• The BECN bit also is a part of the address field of the frame header.
+• The value of BECN bit is set to 1 in the frames that traveling in the opposite direction (to the sender).
+• The BECN = 1 indicates congestion and the flow control is exercised to control the congestion.
+"
+                       />
+
+                   <ImageView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/f4"/>
+
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+           <android.support.v7.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:layout_marginTop="5dp"
+               android:paddingBottom="10dp"
+               android:paddingTop="10dp"
+               card_view:cardCornerRadius="5dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:padding="10dp">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/colorPrimary"
+                       android:text="How does TCP/IP decide the size of an IP fragment?Explain." />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="When a sending device or router fragments a datagram, it must provide information that will allow the receiving device to be able to identify the fragments and reassemble them into the datagram that was originally sent. This information is recorded by the fragmenting device in a number of fields in the IP datagram header." />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="After fragmenting, this field indicates the length of each fragment, not the length of the overall message. Normally, the fragment size is selected to match the MTU value in bytes. However, fragments must have a length that is a multiple of 8, to allow proper offset specification (see below). The last fragment will usually be shorter than the others because it will contain a “leftover” piece, unless the message length happens to be an exact multiple of the fragment size." />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="This field solves the problem of sequencing fragments by indicating to the recipient device where in the overall message each particular fragment should be placed. The field is 13 bits wide, so the offset can be from 0 to 8191. Fragments are specified in units of 8 bytes, which is why fragment length must be a multiple of 8. Uncoincidentally, 8191 * 8 is 65,528, just about the maximum size allowed for an IP datagram.
+
+Let's take the same example from above. The first fragment would have a Fragment Offset of 0. The second would have an offset of 410 (3,280 divided by 8). The third would have an offset of 820 (6,560 divided by 8). The fourth would have an offset of 1230." />
+
+
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+           <android.support.v7.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:layout_marginTop="5dp"
+               android:paddingBottom="10dp"
+               android:paddingTop="10dp"
+               card_view:cardCornerRadius="5dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:padding="10dp">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/colorPrimary"
+                       android:text="Why TCP is called end to end protocol?"
+
+                       />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+
+                       android:text="End-to-end transport protocols typically mean protocols which are handling the full interconnectivity from one end-point to another end-point.The transport protocols are residing in Layer 4 in the OSI network model.The Transport Control Protocol (TCP) running on top of the Internet Protocol (IP), often therfore called TCP/IP, is the most used of the end-to-end transport protocols.  It does the routing part and Transport Layer does the end to end communication. "
+
+                       />
+
+
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+           <android.support.v7.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:layout_marginTop="5dp"
+               android:paddingBottom="10dp"
+               android:paddingTop="10dp"
+               card_view:cardCornerRadius="5dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:padding="10dp">
+
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/colorPrimary"
+                       android:text="DIfference between TCP/IP with OSI ref model." />
+
+                   <ImageView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/tcposi" />
+
+
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+           <android.support.v7.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:layout_marginTop="5dp"
+               android:paddingBottom="10dp"
+               android:paddingTop="10dp"
+               card_view:cardCornerRadius="5dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:padding="10dp">
+
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/colorPrimary"
+                       android:text="What is standard?" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="A common set of rules." />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="A definition or format that has been approved by a recognized standards organization or is accepted as a de facto standard by the industry. Standards exist for programming languages, operating systems, data formats, communications protocols, and electrical interfaces." />
+
+
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+           <android.support.v7.widget.CardView
+           xmlns:card_view="http://schemas.android.com/apk/res-auto"
+           xmlns:android="http://schemas.android.com/apk/res/android"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           card_view:cardCornerRadius="5dp"
+           android:paddingBottom="10dp"
+           android:paddingTop="10dp">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="10dp"
+           android:orientation="vertical">
+
+
+
+           <TextView
+               android:text="OSI Reference Model "
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textStyle="bold"
+               android:textColor="@color/colorPrimary"
+               android:textSize="25dp"
+                />
+
+           <TextView
+               android:text=" The International Standard Organization has a well-defined model for Communication Systems known as Open System Interconnection, or the OSI Model. This layered model is a conceptualized view of how one system should communicate with the other, using various protocols defined in each layer. "
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="20dp"
+               />
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+
+             android:src="@drawable/osi"
+               android:scaleType="fitCenter" />
+
+
+
+
+           <TextView
+               android:text=" Application Layer: "
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textStyle="bold"
+               android:textColor="@color/colorPrimary"
+               android:textSize="22dp"
+                />
+
+           <TextView
+               android:text=" This layer is responsible for providing interface to the application user. This layer encompasses protocols which directly interact with the user.
+"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="20dp"
+               android:id="@+id/textView41" />
+
+           <TextView
+               android:text=" Presentation Layer: "
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textStyle="bold"
+               android:textColor="@color/colorPrimary"
+               android:textSize="22dp"
+              />
+
+           <TextView
+               android:text=" This layer defines how data in the native format of remote host should be presented in the native format of host.
+"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="20dp"
+                />
+
+           <TextView
+               android:text=" Session Layer: "
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textStyle="bold"
+               android:textColor="@color/colorPrimary"
+               android:textSize="22dp"
+                />
+
+           <TextView
+               android:text=" This layer maintains sessions between remote hosts. For example, once user/password authentication is done, the remote host maintains this session for a while and does not ask for authentication again in that time span.
+"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="20dp"
+                />
+
+           <TextView
+               android:text=" Transport Layer: "
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textStyle="bold"
+               android:textColor="@color/colorPrimary"
+               android:textSize="22dp"
+              />
+
+           <TextView
+               android:text=" This layer is responsible for end-to-end delivery between hosts.
+"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="20dp"
+              />
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Network Layer"/>
+
+           <TextView
+               android:text=" This layer is responsible for address assignment and uniquely addressing hosts in a network.
+"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="20dp"
+              />
+
+           <TextView
+               android:text=" Data Link Layer: "
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textStyle="bold"
+               android:textColor="@color/colorPrimary"
+               android:textSize="22dp"
+              />
+
+           <TextView
+               android:text=" This layer is responsible for reading and writing data from and onto the line. Link errors are detected at this layer.
+"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="20dp"
+               />
+
+           <TextView
+               android:text=" Physical Layer:: "
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textStyle="bold"
+               android:textColor="@color/colorPrimary"
+               android:textSize="22dp"
+               android:id="@+id/textView40" />
+
+           <TextView
+               android:text=" This layer defines the hardware, cabling wiring, power output, pulse rate etc.
+"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="20dp"
+                />
+       </LinearLayout>
+       </android.support.v7.widget.CardView>
+
+
+
+
+
+       </LinearLayout>
+
+
+
+   </ScrollView>
+</RelativeLayout>

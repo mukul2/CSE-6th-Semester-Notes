@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+
+          <android.support.v7.widget.CardView
+              xmlns:card_view="http://schemas.android.com/apk/res-auto"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingTop="10dp"
+              android:paddingBottom="10dp"
+              android:layout_marginTop="5dp"
+              android:layout_marginLeft="5dp"
+              android:layout_marginRight="5dp"
+              card_view:cardCornerRadius="5dp">
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:padding="10dp"
+                  android:orientation="vertical">
+
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical">
+
+
+                      <TextView
+                          android:id="@+id/textView14"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="Application PPI"
+
+                          android:textColor="@color/colorPrimary"
+                          android:textSize="30dp"
+                          android:textStyle="bold" />
+
+                      <TextView
+                          android:id="@+id/textView15"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:padding="5dp"
+                          android:text="The Intel 8255 Programmable peripheral interface chip is a peripheral chip originally developed for the Intel 8085 microprocessor and as such is a member of a large array of chips known as  the MCS- 85 family . The typical applications of 8255 are given below"
+
+                          android:textSize="20dp" />
+
+                      <TextView
+                          android:id="@+id/textView16"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="•	Put on LED as a specific by the designer "
+
+                          android:textSize="20dp" />
+
+                      <TextView
+                          android:id="@+id/textView17"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="•	Generate a square wave at Port A "
+
+                          android:textSize="20dp" />
+
+                      <TextView
+                          android:id="@+id/textView18"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="•	Interfacing A/D converter"
+
+                          android:textSize="20dp" />
+
+                      <TextView
+                          android:id="@+id/textView19"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="•	Keyboard operation"
+
+                          android:textSize="20dp" />
+
+                      <TextView
+                          android:id="@+id/textView20"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="•	Sequential switch on light"
+
+                          android:textSize="20dp" />
+
+                      <TextView
+                          android:id="@+id/textView21"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="•	Traffic lights controller"
+
+                          android:textSize="20dp" />
+
+                      <TextView
+                          android:id="@+id/textView22"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="•	Interfacing with DC motors and stepper Motors
+"
+
+                          android:textSize="20dp" />
+
+
+                  </LinearLayout>
+              </LinearLayout>
+          </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+          <android.support.v7.widget.CardView
+              xmlns:card_view="http://schemas.android.com/apk/res-auto"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingTop="10dp"
+              android:paddingBottom="10dp"
+              android:layout_marginTop="5dp"
+              android:layout_marginLeft="5dp"
+              android:layout_marginRight="5dp"
+              card_view:cardCornerRadius="5dp">
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:padding="10dp"
+                  android:orientation="vertical">
+
+
+                  <TextView
+                      android:id="@+id/textView23"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="Assynchornous Serial Interface"
+                      android:textColor="@color/colorPrimary"
+                      android:textSize="30dp"
+                      android:textStyle="bold" />
+
+                  <TextView
+                      android:id="@+id/textView24"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:padding="5dp"
+                      android:text="In serial transmission the bits of the data word are transmitted one after another on a single wire."
+                      android:textSize="20dp" />
+
+                  <ImageView
+                      android:id="@+id/imageView8"
+                      android:layout_width="match_parent"
+                      android:layout_height="500dp"
+
+                      android:scaleType="fitCenter"
+                      app:srcCompat="@drawable/asy1" />
+
+                  <ImageView
+                      android:id="@+id/imageView9"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      app:srcCompat="@drawable/asy2" />
+              </LinearLayout>
+          </android.support.v7.widget.CardView>
+
+
+
+
+          <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            card_view:cardCornerRadius="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Computer Peripherals" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/a1a" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Computer Interfacing" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/a1b" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Interface Unit" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/a1c" />
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+          <android.support.v7.widget.CardView
+              xmlns:card_view="http://schemas.android.com/apk/res-auto"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingTop="10dp"
+              android:paddingBottom="10dp"
+              android:layout_marginTop="5dp"
+              android:layout_marginLeft="5dp"
+              android:layout_marginRight="5dp"
+              card_view:cardCornerRadius="5dp">
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:padding="10dp"
+                  android:orientation="vertical">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/colorPrimary"
+    android:text="Discuss the priority schemes for the simple interrupts scheme with figure"/>
+
+
+              </LinearLayout>
+          </android.support.v7.widget.CardView>
+
+
+
+          <android.support.v7.widget.CardView
+              xmlns:card_view="http://schemas.android.com/apk/res-auto"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingTop="10dp"
+              android:paddingBottom="10dp"
+              android:layout_marginTop="5dp"
+              android:layout_marginLeft="5dp"
+              android:layout_marginRight="5dp"
+              card_view:cardCornerRadius="5dp">
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:padding="10dp"
+                  android:orientation="vertical">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/colorPrimary"
+    android:text="Write down the different types of IO instructions for programmed IO"/>
+
+
+              </LinearLayout></android.support.v7.widget.CardView>
+
+
+
+          <android.support.v7.widget.CardView
+              xmlns:card_view="http://schemas.android.com/apk/res-auto"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingTop="10dp"
+              android:paddingBottom="10dp"
+              android:layout_marginTop="5dp"
+              android:layout_marginLeft="5dp"
+              android:layout_marginRight="5dp"
+              card_view:cardCornerRadius="5dp">
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:padding="10dp"
+                  android:orientation="vertical">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:text="Explain the working principle of DMA with appropriate figure"/>
+
+
+                  <ImageView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                   android:src="@drawable/dma"
+                      android:id="@+id/imageView"
+                      android:scaleType="fitCenter" />
+
+                  <TextView
+                      android:text="Working principle (Step by step)"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/colorAccent"
+
+                   />
+
+                  <TextView
+                      android:text="During a block input byte transfer, the following sequence occurs as the data byte is sent from the interface to the memory:"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:padding="5dp"
+
+                     />
+
+                  <TextView
+                      android:text="1. The interface sends the DMA controller a request for DMA service."
+                      android:layout_width="match_parent"
+
+                      android:layout_height="wrap_content"
+                       />
+
+                  <TextView
+                      android:text="2. A Bus request is made to the HOLD pin (active High) on the 8086 microprocessor  and the controller gains control of the bus."
+                      android:layout_width="match_parent"
+
+                      android:layout_height="wrap_content"
+                      />
+
+                  <TextView
+                      android:text="3. A Bus grant is returned to the DMA controller from the Hold Acknowledge (HLDA) pin (active High) on the 8086 microprocessor."
+                      android:layout_width="match_parent"
+
+                      android:layout_height="wrap_content"
+                      />
+
+                  <TextView
+                      android:text="4. The  DMA controller places contents of the address register onto the address bus."
+                      android:layout_width="match_parent"
+
+                      android:layout_height="wrap_content"
+                      />
+                  <TextView
+                      android:text="5. The controller sends the interface a DMA acknowledgment, which tells the interface to put data on the data bus. (For an output it signals the interface to latch the next data placed on the bus.)"
+                      android:layout_width="match_parent"
+
+                      android:layout_height="wrap_content"
+                      />
+                  <TextView
+                      android:text="6. The data byte is transferred to the memory location indicated by the address bus."
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      />
+                  <TextView
+                      android:text="7. The interface latches the data."
+                      android:layout_width="match_parent"
+
+                      android:layout_height="wrap_content"
+                      />
+                  <TextView
+                      android:text="8. The Bus request is dropped, the HOLD pin goes Low, and the controller relinquishes the bus."
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      />
+                  <TextView
+                      android:text="9. The Bus grant from the 8086 microprocessor is dropped and the HLDA pin goes Low."
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      />
+                  <TextView
+                      android:text="10. The address register is incremented by 1."
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                    />
+                  <TextView
+                      android:text="11. The byte count is decremented by 1."
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+
+                      />
+                  <TextView
+                      android:text="12. If the byte count is non-zero, return to step 1, otherwise stop."
+                      android:layout_width="match_parent"
+
+                      android:layout_height="wrap_content"
+
+                      />
+
+              </LinearLayout>
+          </android.support.v7.widget.CardView>
+
+          <android.support.v7.widget.CardView
+              xmlns:card_view="http://schemas.android.com/apk/res-auto"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingTop="10dp"
+              android:paddingBottom="10dp"
+              android:layout_marginTop="5dp"
+              android:layout_marginLeft="5dp"
+              android:layout_marginRight="5dp"
+              card_view:cardCornerRadius="5dp">
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:padding="10dp"
+                  android:orientation="vertical">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/colorPrimary"
+    android:text="Explain an interface unit with figure"/>
+
+                  <TextView
+                      android:text="A peripheral is an ancillary device used to put information into and get information out of the computer.There are three different types of peripherals: input devices, which interact with or send data from the user to the computer (mice, keyboards, etc.), output devices, which provide output to the user from the computer (monitors, printers, etc.), and input/output devices that perform both functions. Touchscreens are an example that combines different devices into a single hardware component that can be used both as an input and output device."
+                      android:padding="5dp"
+
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                       />
+
+                  <TextView
+                      android:text="Computer Interfacing"
+
+                      android:textColor="@color/colorPrimary"
+
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      />
+
+                  <TextView
+                      android:text="A boundary across which two independent systems meet and act on or communicate with each other.
+   "
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:padding="5dp"
+                       />
+
+                  <TextView
+                      android:text="Interface Unit"
+
+                      android:textColor="@color/colorPrimary"
+
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/textView5" />
+
+                  <TextView
+                      android:text="An interface unit is needed to ensure compatibility between the bus and the peripheral.
+        Interface units are therefore usually built into the computer intels and points on the interface unit where the peripheral devices are connected are often called I/O ports
+   "
+                      android:padding="5dp"
+
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                       />
+
+                  <TextView
+                      android:text="Basic Interfaceing unit"
+
+                      android:textColor="@color/colorPrimary"
+
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                       />
+
+                  <ImageView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                    android:src="@drawable/inter"
+                     
+                     />
+
+
+              </LinearLayout>
+          </android.support.v7.widget.CardView>
+
+
+          <android.support.v7.widget.CardView
+              xmlns:card_view="http://schemas.android.com/apk/res-auto"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingTop="10dp"
+              android:paddingBottom="10dp"
+              android:layout_marginTop="5dp"
+              android:layout_marginLeft="5dp"
+              android:layout_marginRight="5dp"
+              card_view:cardCornerRadius="5dp">
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:padding="10dp"
+                  android:orientation="vertical">
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="Explain the operation of a Laser printer"/>
+
+                  <TextView
+                      android:text="How a laser printer works"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+
+                     />
+
+                  <TextView
+                      android:text="1. Millions of bytes (characters) of data stream into the printer from your computer."
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      />
+
+                  <TextView
+                      android:text="2. An electronic circuit in the printer (effectively, a small computer in its own right) figures out how to print this data so it looks correct on the page."
+                      android:layout_width="match_parent"
+
+                      android:layout_height="wrap_content"
+                       />
+
+                  <TextView
+                      android:text="3. The electronic circuit activates the corona wire. This is a high-voltage wire that gives a static electric charge to anything nearby."
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      />
+
+                  <TextView
+                      android:text="4. The corona wire charges up the photoreceptor drum so the drum gains a positive charge spread uniformly across its surface."
+                      android:layout_width="match_parent"
+
+                      android:layout_height="wrap_content"
+                      />
+                  <ImageView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/laser"/>
+
+                  <TextView
+                      android:text="5. At the same time, the circuit activates the laser to make it draw the image of the page onto the drum. The laser beam doesn't actually move: it bounces off a moving mirror that scans it over the drum. Where the laser beam hits the drum, it erases the positive charge that was there and creates an area of negative charge instead. Gradually, an image of the entire page builds up on the drum: where the page should be white, there are areas with a positive charge; where the page should be black, there are areas of negative charge."
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                       />
+
+                  <TextView
+                      android:text="6. An ink roller touching the photoreceptor drum coats it with tiny particles of powdered ink (toner). The toner has been given a positive electrical charge, so it sticks to the parts of the photoreceptor drum that have a negative charge (remember that opposite electrical charges attract in the same way that opposite poles of a magnet attract). No ink is attracted to the parts of the drum that have a positive charge. An inked image of the page builds up on the drum."
+                      android:layout_width="match_parent"
+
+                      android:layout_height="wrap_content"
+                    />
+
+                  <TextView
+                      android:text="7. A sheet of paper from a hopper on the other side of the printer feeds up toward the drum. As it moves along, the paper is given a strong positive electrical charge by another corona wire."
+                      android:layout_width="match_parent"
+
+                      android:layout_height="wrap_content"
+                     />
+
+                  <TextView
+                      android:text="8. When the paper moves near the drum, its positive charge attracts the negatively charged toner particles away from the drum. The image is transferred from the drum onto the paper but, for the moment, the toner particles are just resting lightly on the paper's surface."
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                   />
+
+                  <TextView
+                      android:text="9. The inked paper passes through two hot rollers (the fuser unit). The heat and pressure from the rollers fuse the toner particles permanently into the fibers of the paper."
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                    />
+
+                  <TextView
+                      android:text="10. The printout emerges from the side of the copier. Thanks to the fuser unit, the paper is still warm. It's literally hot off the press!"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                     />
+              </LinearLayout>
+          </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+      </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

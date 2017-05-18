@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <android.support.v7.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:layout_marginTop="5dp"
+               card_view:cardCornerRadius="15dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:padding="10dp">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Mention the place of AI in computer science. "
+                       android:textColor="@color/colorPrimary"
+                       android:textSize="25dp" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text=" Ai is a complex, highly interdisciplinary branch of computer science that attempts to incorporate the principles of human intelligence and reasoning into computing system. The different places of AI in computer science are as follows: "
+                       android:textSize="25dp" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text=" Cognitive science"
+                       android:textSize="25dp" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text=" Computer engineering"
+                       android:textSize="25dp" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text=" Computer graphics"
+                       android:textSize="25dp" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text=" Data processing"
+                       android:textSize="25dp" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text=" Database system"
+                       android:textSize="25dp" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text=" Knowledge engineering"
+                       android:textSize="25dp" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text=" Neural network"
+                       android:textSize="25dp" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text=" Robotics"
+                       android:textSize="25dp" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text=" Machine learning"
+                       android:textSize="25dp" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text=" Automate deduction"
+                       android:textSize="25dp" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text=" Machine vision"
+                       android:textSize="25dp" />
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+           <android.support.v7.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:layout_marginTop="5dp"
+               card_view:cardCornerRadius="15dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:padding="10dp">
+
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Define Artificial Intelligence. "
+                       android:textColor="@color/colorPrimary"
+                       android:textSize="25dp" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Ans:  Artificial intelligence (AI) is the intelligence exhibited by machines. In computer science, an ideal intelligent machine is a flexible rational agent that perceives its environment and takes actions that maximize its chance of success at an arbitrary goal.  Colloquially, the term artificial intelligence is likely to be applied when a machine uses cutting-edge techniques to competently perform or mimic cognitive functions that we intuitively associate with human minds, such as learning and problem solving"
+                       android:textSize="25dp" />
+
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+           <android.support.v7.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:layout_marginTop="5dp"
+               card_view:cardCornerRadius="7dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:padding="10dp">
+
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text=" List the characteristics features of an expert system. "
+                       android:textColor="@color/colorPrimary"
+                       android:textSize="25dp" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Characteristic: "
+                       android:textSize="25dp" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text=" Should be able to display the intelligence behavior."
+                       android:textSize="25dp" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text=" Should explain the reasoning"
+                       android:textSize="25dp" />
+
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text=" Should draw the conclusion from the relation-ships are the very complex in the nature."
+                       android:textSize="25dp" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text=" Should provide the much portable knowledge"
+                       android:textSize="25dp" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="  Cannot refine own knowledge base."
+                       android:textSize="25dp" />
+
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="  Are very much difficult to maintain."
+                       android:textSize="25dp" />
+
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text=" Limited to the narrow problems."
+                       android:textSize="25dp" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Feature:"
+                       android:textSize="25dp" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text=" Problem solving in the area of expertise"
+                       android:textSize="25dp" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text=" Interaction with user during and after problem solving"
+                       android:textSize="25dp" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text=" Ability of explain result to user"
+                       android:textSize="25dp" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text=" Relaying heavily an demand knowledge."
+                       android:textSize="25dp" />
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+           <android.support.v7.widget.CardView
+           xmlns:card_view="http://schemas.android.com/apk/res-auto"
+           xmlns:android="http://schemas.android.com/apk/res/android"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           card_view:cardCornerRadius="15dp"
+           android:paddingBottom="10dp"
+           android:paddingTop="10dp">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="10dp"
+           android:orientation="vertical">
+
+
+
+
+       <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:textColor="@color/colorPrimary"
+               android:text="Difference between propositional logic and predicate logic"/>
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:src="@drawable/propotioanla"
+
+               />
+       </LinearLayout>
+       </android.support.v7.widget.CardView>
+
+           <android.support.v7.widget.CardView
+           xmlns:card_view="http://schemas.android.com/apk/res-auto"
+           xmlns:android="http://schemas.android.com/apk/res/android"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           card_view:cardCornerRadius="15dp">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="10dp"
+           android:orientation="vertical">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:textColor="@color/colorPrimary"
+               android:text="What is Inference rule?"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="20dp"
+               android:text="Inferences are steps in reasoning, moving from premises to conclusions. Charles Sanders Peirce divided inference into three kinds: deduction, induction, and abduction. "/>
+
+
+       </LinearLayout>
+       </android.support.v7.widget.CardView>
+
+           <android.support.v7.widget.CardView
+           xmlns:card_view="http://schemas.android.com/apk/res-auto"
+           xmlns:android="http://schemas.android.com/apk/res/android"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           card_view:cardCornerRadius="15dp"
+           android:paddingBottom="10dp"
+           android:paddingTop="10dp">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="10dp"
+           android:orientation="vertical">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:textColor="@color/colorPrimary"
+               android:text="What is Artificial Neural Network (ANN)? Draw an analogy between artificial neural network and biological neural network."/>
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="Ans: Artificial Neural Network: Artificial neural network is a loosely modeled on the human brain. The field goes by many names, such as connectionism, parallel distributed processing, neuron computing, natural intelligent system, machine learning algorithms and artificial neural network. A trained neural network can be thought of as an “expert” in the category of information it has been given to analyses."
+               />
+
+           <android.support.v7.widget.CardView
+               xmlns:card_view="http://schemas.android.com/apk/res-auto"
+               xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               card_view:cardCornerRadius="15dp"
+               android:paddingBottom="10dp"
+               android:paddingTop="10dp">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:orientation="vertical">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:textColor="@color/colorAccent"
+               android:text="The advantages of neural network are as follows:"
+
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text=" Adaptive learning: An ability to learn how to do tasks based on the data given for initial experience."
+
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text=" Self-organization: An ANN can create its own organization or representation of the information it receives during learning time."
+
+               />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text=" Real time operation: ANN computation may be carried out in parallel and special hardware device are being designed and manufactured which take advantage of this capability."
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="The architecture of ANN are as follows:" />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text=" Feed-forward networks."
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text=" Feedback networks" />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text=" Multilayer perception."/>
+
+
+
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+       </LinearLayout>
+       </android.support.v7.widget.CardView>
+
+
+       </LinearLayout>
+
+   </ScrollView>
+</RelativeLayout>

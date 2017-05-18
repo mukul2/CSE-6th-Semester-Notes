@@ -1,0 +1,221 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+        <item
+
+
+            android:title="Introduction to DSP"
+
+            />
+        <item
+
+
+            android:title="DSP" />
+        <item
+
+
+            android:title="Block diagram of DSP" />
+        <item
+
+
+            android:title="Analog to Digital Converter" />
+        <item
+
+
+            android:title="Digital Signal Processor" />
+        <item
+
+
+            android:title="Digital to Analog converter" />
+        <item
+
+
+            android:title="Applications of DSP" /> <item
+
+
+    android:title="Advantages of DSP" />
+        <item
+
+
+            android:title="Disadvantages of DSP" /> <item
+
+
+    android:title="Define Signal" />
+        <item
+
+
+            android:title="Discrete time Signal" />
+        <item
+
+
+            android:title="Continous Time Signal" />
+
+        <item
+
+
+            android:title="Periodic Signal" />
+        <item
+
+
+            android:title="Unit Step Signal" /> <item
+
+
+    android:title="Analog Signal vs Digital Signal" />
+        <item
+
+
+            android:title="Analog o Digital Conversion" /> <item
+
+
+    android:title="Sampling" />
+
+
+
+
+
+
+        <item
+
+
+            android:title="Discrete fourier Transform" /> <item
+
+
+    android:title="Inverse DFT" />
+        <item
+
+
+            android:title="FFT" /><item
+
+
+    android:title="Need of FFT" /> <item
+
+
+    android:title="Applications of FFT" />
+        <item
+
+
+            android:title="DTFT" />
+        <item
+
+
+            android:title="The Z Transform" />
+
+
+        <item
+
+
+    android:title="Defination" /> <item
+
+
+    android:title="Inverse Z transform" />
+        <item
+
+
+            android:title="Implementation of Discrete-Time Systems" />
+        <item
+
+
+            android:title="Conditions to check" /><item
+
+
+    android:title="Examples" /> <item
+
+
+    android:title="Memory System" />
+        <item
+
+
+            android:title="Memoryless System" /><item
+
+
+    android:title="Convolution Properties" /> <item
+
+
+    android:title="Commutative Property" />
+        <item
+
+
+            android:title="Associative Property" /><item
+
+
+    android:title="Distributive property" /> <item
+
+
+    android:title="Calculationg Convolution sum" />
+        <item
+
+
+            android:title="ROC of Z transform" /><item
+
+
+    android:title="Adaptive filter" /> <item
+
+
+    android:title="An important math" />
+        <item
+
+
+            android:title="Design of Digital Filters" />
+        <item
+
+
+            android:title="Defination" />
+        <item
+
+
+            android:title="Filter design steps" />
+        <item
+
+
+    android:title="Block diagram" /> <item
+
+
+    android:title="Advantage of Digital filtering" />
+        <item
+
+
+            android:title="Disadvantage of Digital filtering" /><item
+
+
+    android:title="Analog filter vs Digital Filter" /> <item
+
+
+    android:title="Classifications of Digital filter" />
+        <item
+
+
+            android:title="FIR filter design" />
+        <item
+
+
+            android:title="Advantage of FIR filter" />
+        <item
+
+
+            android:title="Disadvantage of FIR filter" />
+        <item
+
+
+            android:title="Necessary and sufficient condition" />
+        <item
+
+
+            android:title="Impulse response of FIR" />
+
+        <item
+
+
+            android:title="Transfer function of FIR" /><item
+
+
+    android:title="" />
+
+
+
+
+
+
+
+</menu>

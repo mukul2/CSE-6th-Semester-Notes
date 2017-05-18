@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/t1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Network Layer"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:text="Layer-3 in the OSI model is called Network layer. Network layer manages options pertaining to host and network addressing, managing
+sub-networks, and internetworking.
+
+Network layer takes the responsibility for routing packets from source to destination within or outside a subnet. Two different subnet may have different addressing
+schemes or non-compatible addressing types. Same with protocols, two different subnet may be operating on different protocols which are not compatible with each other.
+Network layer has the responsibility to route the packets from source to destination, mapping different addressing schemes and protocols."
+
+
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Functionality of Network Layer"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="25dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="1.It translates logical network address into physical address. Concerned with circuit, message or packet switching.\n2.Routers and gateways operate in the network layer. Mechanism is provided by Network Layer for routing the packets to final destination.\n3.Connection services are provided including network layer flow control, network layer error control and packet sequence control.\n4.Breaks larger packets into small packets."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:text="Network Layer Features"/>
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="With its standard functionalities, Layer 3 can provide various features as:
+
+1.Quality of service management
+
+\n2.Load balancing and link management
+
+\n3.Security
+
+\n4.Interrelation of different protocols and subnets with different schema.
+
+\n5.Different logical network design over the physical network design.
+
+\n6.L3 VPN and tunnels can be used to provide end to end dedicated connectivity."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:text="Unicast routing"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/uni"/>
+
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Most of the traffic on the internet and intranets known as unicast data or unicast traffic is sent with specified destination.
+Routing unicast data over the internet is called unicast routing. It is the simplest form of routing because the destination is already known. Hence the router just
+has to look up the routing table and forward the packet to next hop."/>
+
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:text="Broadcast routing"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/board"/>
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="By default, the broadcast packets are not routed and forwarded by the routers on any network. Routers create broadcast domains. But
+it can be configured to forward broadcasts in some special cases. A broadcast message is destined to all network devices.
+
+Broadcast routing can be done in two ways (algorithm):
+
+\n1.A router creates a data packet and then sends it to each host one by one. In this case, the router creates multiple copies of single data packet with
+different destination addresses. All packets are sent as unicast but because they are sent to all, it simulates as if router is broadcasting.
+
+This method consumes lots of bandwidth and router must destination address of each node.
+
+\n2.Secondly, when router receives a packet that is to be broadcasted, it simply floods those packets out of all interfaces. All routers are configured in the
+same way."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:text="Multicast Routing"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/multicasting"/>
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Multicast routing is special case of broadcast routing with significance difference and challenges. In broadcast routing, packets are
+sent to all nodes even if they do not want it. But in Multicast routing, the data is sent to only nodes which wants to receive the packets.The router must know that
+there are nodes, which wish to receive multicast packets (or stream) then only it should forward. Multicast routing works spanning tree protocol to avoid looping.
+
+Multicast routing also uses reverse path Forwarding technique, to detect and discard duplicates and loops."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:text="Tunneling"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/tuneling"/>
+
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="If they are two geographically separate networks, which want to communicate with each other, they may deploy a dedicated line between
+or they have to pass their data through intermediate networks.
+
+Tunneling is a mechanism by which two or more same networks communicate with each other, by passing intermediate networking complexities. Tunneling is configured at
+both ends.When the data enters from one end of Tunnel, it is tagged. This tagged data is then routed inside the intermediate or transit network to reach the other end
+of Tunnel. When data exists the Tunnel its tag is removed and delivered to the other part of the network.
+
+Both ends seem as if they are directly connected and tagging makes data travel through transit network without any modifications."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:text="Address Resolution Protocol(ARP)"/>
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/arp"/>
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="While communicating, a host needs Layer-2 (MAC) address of the destination machine which belongs to the same broadcast domain or
+network. A MAC address is physically burnt into the Network Interface Card (NIC) of a machine and it never changes.
+
+On the other hand, IP address on the public domain is rarely changed. If the NIC is changed in case of some fault, the MAC address also changes. This way, for Layer-2
+communication to take place, a mapping between the two is required.
+To know the MAC address of remote host on a broadcast domain, a computer wishing to initiate communication sends out an ARP broadcast message asking, “Who has this IP
+address?” Because it is a broadcast, all hosts on the network segment (broadcast domain) receive this packet and process it. ARP packet contains the IP address of
+destination host, the sending host wishes to talk to. When a host receives an ARP packet destined to it, it replies back with its own MAC address.
+
+Once the host gets destination MAC address, it can communicate with remote host using Layer-2 link protocol. This MAC to IP mapping is saved into ARP cache of both
+sending and receiving hosts. Next time, if they require to communicate, they can directly refer to their respective ARP cache.
+
+Reverse ARP is a mechanism where host knows the MAC address of remote host but requires to know IP address to communicate."/>
+
+
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:text="Internet Control Message Protocol (ICMP)"/>
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="ICMP is network diagnostic and error reporting protocol. ICMP belongs to IP protocol suite and uses IP as carrier protocol. After
+constructing ICMP packet, it is encapsulated in IP packet. Because IP itself is a best-effort non-reliable protocol, so is ICMP.
+
+Any feedback about network is sent back to the originating host. If some error in the network occurs, it is reported by means of ICMP. ICMP contains dozens of
+diagnostic and error reporting messages.
+
+ICMP-echo and ICMP-echo-reply are the most commonly used ICMP messages to check the reachability of end-to-end hosts. When a host receives an ICMP-echo request, it is
+bound to send back an ICMP-echo-reply. If there is any problem in the transit network, the ICMP will report that problem."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:text="Internet Protocol Version 4 (IPv4)"/>
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="IPv4 is 32-bit addressing scheme used as TCP/IP host addressing mechanism. IP addressing enables every host on the TCP/IP network to
+be uniquely identifiable.
+
+IPv4 provides hierarchical addressing scheme which enables it to divide the network into sub-networks, each with well-defined number of hosts. IP addresses are divided
+into many categories:
+
+\nClass A  - it uses first octet for network addresses and last three octets for host addressing
+
+\nClass B  - it uses first two octets for network addresses and last two for host addressing
+
+\nClass C  - it uses first three octets for network addresses and last one for host addressing
+
+\nClass D  - it provides flat IP addressing scheme in contrast to hierarchical structure for above three.
+
+\nClass E  - It is used as experimental.
+
+IPv4 also has well-defined address spaces to be used as private addresses (not routable on internet), and public addresses (provided by ISPs and are routable on
+internet)."/>
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:text="Internet Protocol Version 6 (IPv6)"/>
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Exhaustion of IPv4 addresses gave birth to a next generation Internet Protocol version 6. IPv6 addresses its nodes with 128-bit wide address providing plenty of address space for future to be used on entire planet or beyond.
+
+IPv6 has introduced Anycast addressing but has removed the concept of broadcasting. IPv6 enables devices to self-acquire an IPv6 address and communicate within that subnet. This auto-configuration removes the dependability of Dynamic Host Configuration Protocol (DHCP) servers. This way, even if the DHCP server on that subnet is down, the hosts can communicate with each other.
+
+IPv6 provides new feature of IPv6 mobility. Mobile IPv6 equipped machines can roam around without the need of changing their IP addresses.
+
+IPv6 is still in transition phase and is expected to replace IPv4 completely in coming years. At present, there are few networks which are running on IPv6. There are some transition mechanisms available for IPv6 enabled networks to speak and roam around different networks easily on IPv4. These are:
+
+Dual stack implementation
+Tunneling
+NAT-PT"/>
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

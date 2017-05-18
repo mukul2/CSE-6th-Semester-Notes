@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "543985298575",
+    "firebase_url": "https://semester-423dc.firebaseio.com",
+    "project_id": "semester-423dc",
+    "storage_bucket": "semester-423dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543985298575:android:6b8cc0dae4f8c944",
+        "android_client_info": {
+          "package_name": "com.example.mukul.slidethree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543985298575-2d3kcotv0cj3o1evcuah43cggfbfdjbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApvfNNA4T44uu05nEYp5uBUnulEGr4mps"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

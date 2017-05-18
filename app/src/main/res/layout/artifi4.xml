@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            card_view:cardCornerRadius="5dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Disscuss the search technique of Breadth First Search (BFS)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="Breadth First Search (BFS)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="There are many ways to traverse graphs. BFS is the most commonly used approach."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="BFS is a traversing algorithm where you should start traversing from a selected node (source or starting node) and traverse the graph layerwise thus exploring the neighbour nodes (nodes which are directly connected to source node). You must then move towards the next-level neighbour nodes."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="As the name BFS suggests, you are required to traverse the graph breadthwise as follows:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="1. First move horizontally and visit all the nodes of the current layer"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="2. Move to the next layer"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="Consider the following diagram. "/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bfs"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="The distance between the nodes in layer 1 is comparitively lesser than the distance between the nodes in layer 2. Therefore, in BFS, you must traverse all the nodes in layer 1 before you move to the nodes in layer 2."/>
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            card_view:cardCornerRadius="15dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="Disscuss the search technique of Depth First Search (DFS)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="The DFS algorithm is a recursive algorithm that uses the idea of backtracking. It involves exhaustive searches of all the nodes by going ahead, if possible, else by backtracking."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="Here, the word backtrack means that when you are moving forward and there are no more nodes along the current path, you move backwards on the same path to find nodes to traverse. All the nodes will be visited on the current path till all the unvisited nodes have been traversed after which the next path will be selected."/>
+
+            <TextView
+                android:text="The basic idea is as follows:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                 />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dfs"/>
+
+            <TextView
+                android:text="Pick a starting node and push all its adjacent nodes into a stack."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                />
+
+            <TextView
+                android:text="Pop a node from stack to select the next node to visit and push all its adjacent nodes into a stack."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+
+            <TextView
+                android:text="Repeat this process until the stack is empty. However, ensure that the nodes that are visited are marked. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            card_view:cardCornerRadius="5dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="State and explain the criteria that are used for evaluating search strategies.
+" android:textColor="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+
+            <TextView
+                android:text="Search algorithms are judged on the basis of completeness, optimality, time complexity and space complexity. Complexity depends on b, the branching factor in the state space and d the depth of the shallowest solution"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+
+            <TextView
+                android:text="The criteria search strategies are:-"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+
+            <TextView
+                android:text="Completeness: is the algorithm guaranteed to find a solution when there is are?
+"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+
+            <TextView
+                android:text="Optimality: Does the strategy find the optimal solution"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+
+            <TextView
+                android:text="Time complexity: How long does it take to find a solution"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+
+            <TextView
+                android:text="Space complexity: How much memory is needed to perform the search?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            card_view:cardCornerRadius="15dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="Prove A* search is optional and complete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+               android:textSize="25dp" />
+
+            <TextView
+                android:text="Proof"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:textSize="20dp" />
+            <TextView
+                android:text="Step1: Let G2 be a goal state where greedy function is omitted. Then our function will be found f*≥f(n).---------------(i)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+            <TextView
+                android:text="Step2: If f(n) function expands with greedy search then the function will be f(n)≥f(G)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+            <TextView
+                android:text="Step3: then we get f*≥f(G2) [from (i)]"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+            <TextView
+                android:text="So, A* is optimal if h(n) is admissible heuristic provided that h(n) never overestimates the cost to reach the goal. Admissible heuristics are nature optimistic, because they think the cost of solving the problem is less than it actually is."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+            <TextView
+                android:text="Complete: We know that A* expands nodes in order of increasing f, it must eventually expand to reach a goal state. If we define f* to be the cost of the optimal solution path, then we can say that following:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+            <TextView
+                android:text="i. A* expands all nodes with f(n) less than f*"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+            <TextView
+                android:text="ii. A* may then expands some of the nodes right on the ‘goal’, for which f(n)=f* before selecting a goal node."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+            <TextView
+                android:text="This is true of course, unless there are infinitely many nodes with f(n) less than f*."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+            <TextView
+                android:text="Then only way there could be an infinite number of nodes along it."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+            <TextView
+                android:text="i. There is a node with an infinite branching factor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+            <TextView
+                android:text="ii. There is a path with a finite path cost but an infinite number of nodes along it. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+            <TextView
+                android:text="Thus, the correct statement is that A* is complete on locally finite graph provided there is some positive constant δ such that every operator costs at least δ. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            card_view:cardCornerRadius="15dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:text=" What is Fuzzy Logic? Mention some application fuzzy Logic. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp" />
+            <TextView
+                android:text=" Fuzzy Logic: Fuzzy Logic (FL) is a method of reasoning that resembles human reasoning. The approach of FL imitates the way of decision making in humans that involves all intermediate possibilities between digital values YES and NO. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+            <TextView
+                android:text="The conventional logic block that a computer can understand takes precise input and produces a definite output as TRUE or FALSE, which is equivalent to human’s YES or NO. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            card_view:cardCornerRadius="15dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:text=" Write down the predicate logic of the following statements:- "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp" />
+            <TextView
+                android:text="i. Everyone taking AI will pass the exam; "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+            <TextView
+                android:text="Ans : Everyone taking AI will pass the exam. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+            <TextView
+                android:text="∀x (S(x) →A(x) ∧P(x)) "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+            <TextView
+                android:text="ii. The car painted white belongs to me. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+            <TextView
+                android:text="Ans : The car painted white belongs to me. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+            <TextView
+                android:text="∀x, y(belongs to me (x,y)↔(The car paint (x) ∧ white (y)) "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+            <TextView
+                android:text="iii. No employee cams more than the president"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+            <TextView
+                android:text="Ans : No employee cams more than the president"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+            <TextView
+                android:text="∀x∀y (E(x) δ P(y)) →~GE((i(x), i(y))). "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+            <TextView
+                android:text="iv. Man is mortal. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+            <TextView
+                android:text="Ans :  Man is mortal. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+            <TextView
+                android:text="‘x’ is a man→P ‘man’ is mortal→M ∀x (P(x) →M(x))  "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            card_view:cardCornerRadius="15dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="What is blind search? What is meant by admissible heuristics?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+            <TextView
+                android:text="Ans: Blind search: In blind search, nodes in the space are explored mechanically until a goal is found, a time limits has been reached or failure occurs. In worst case, it may be necessary to explore the whole space before finding a solution.
+Example: depth-first, breadth-first search."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+            <TextView
+                android:text="Admissible heuristic: We can combine the two strategies optimal and complete to get the advantages of both fortunately. We can do exactly that combining the two evaluation functions simply by summing them-"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+            <TextView
+                android:text="f(n) = g(n) +h(n) "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+            <TextView
+                android:text="Since g(n)=gives the path from the start nose to n node and
+
+h(n)= is the estimated cost of the cheapest from n to the goal.
+
+Now we have
+
+f(n)= estimated cost of the cheapest solution through n.
+
+So, admissible heuristic provided that h(n) never overestimates the cost to reach the goal.
+
+Admissible heuristic are nature optimistic because they think the cost of solving the problem is less than it actually is."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp" />
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            card_view:cardCornerRadius="15dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="25dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Differentiate among Breadth-first and Depth-first search. "/>
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

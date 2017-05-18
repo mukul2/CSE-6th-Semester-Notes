@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Computer Library</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="backdrop_title">LOVE MUSIC</string>
+    <string name="backdrop_subtitle">This season top 20 albums</string>
+
+    <string name="main_activity">This is our Main Activity</string>
+    <string name="another_activity">This is our Another Activity</string>
+    <string name="b1a">Parallel Ports allow multiple bits of data to be clocked in at once, while a serial port clocks in data one bit at a time. </string>
+    <string name="a1c">An interface unit is needed to ensure compatibility between the bus and the peripheral.
+        Interface units are therefore usually built into the computer intels and points on the interface unit where the peripheral devices are connected are often called I/O ports</string>
+    <string name="a1b">A boundary across which two independent systems meet and act on or communicate with each other.</string>
+    <string name="a1a">A peripheral is an ancillary device used to put information into and get information out of the computer.
+    There are three different types of peripherals: input devices, which interact with or send data from the user to the computer (mice, keyboards, etc.), output devices, which provide output to the user from the computer (monitors, printers, etc.), and input/output devices that perform both functions. Touchscreens are an example that combines different devices into a single hardware component that can be used both as an input and output device.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+</resources>

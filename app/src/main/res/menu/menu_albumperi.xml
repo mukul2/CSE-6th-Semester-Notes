@@ -1,0 +1,137 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+
+
+            android:title="Application of PPI" />
+        <item
+
+
+            android:title="Assynchronous Serial Interface" />
+        <item
+
+
+            android:title="Computer Peripherals" />
+        <item
+
+
+            android:title="DMA" />
+        <item
+
+
+            android:title="Interface Unit" />
+        <item
+
+
+            android:title="Computer Interfacing" />
+        <item
+
+
+            android:title="Basic interfacing unit" />
+        <item
+
+
+            android:title="Laser printer" />
+        <item
+
+
+            android:title="Assynchronous Serial interface" />
+        <item
+
+
+            android:title="BSR mode" />
+        <item
+
+
+            android:title="I/O modes" />
+        <item
+
+
+            android:title="Handshake model 1" /> <item
+
+
+        android:title="OMR vs OCR" />
+        <item
+
+
+            android:title="Memory mapped I/O" />
+        <item
+
+
+            android:title="Peripheral Mapped I/O" />
+        <item
+
+
+            android:title="Serial vs parallel transmission" /> <item
+
+
+        android:title="PIC" />
+        <item
+
+
+            android:title="Application of PIC" />
+        <item
+
+
+            android:title="Barcode" />
+        <item
+
+
+            android:title="How barcode works" />
+        <item
+
+
+            android:title="Application of Barcode" />
+        <item
+
+
+            android:title="Relay Circuit" />
+        <item
+
+
+            android:title="How relay circuit works" />
+        <item
+
+
+            android:title="Stepper motor Interfacing" />
+        <item
+
+
+            android:title="Cathode ray tube" />
+        <item
+
+
+            android:title="Conditions for transfering data" />
+        <item
+
+
+            android:title="Synchronous vs Assynchronous transmission" />
+        <item
+
+
+            android:title="Dynamic scattering LCD" />
+        <item
+
+
+            android:title="RS-232 c /v.25" />
+        <item
+
+
+            android:title="Floppy disk controller" />
+        <item
+
+
+            android:title="Dot matrix printer" />
+        <item
+
+
+            android:title="Keybord encoder" />
+
+
+
+
+    </group>
+</menu>

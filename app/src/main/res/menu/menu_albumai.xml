@@ -1,0 +1,196 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+
+
+            android:title="Introduction" />
+        <item
+
+
+            android:title="Defination" />
+        <item
+
+
+            android:title="Example" />
+        <item
+
+
+            android:title="Intelligence" />
+        <item
+
+
+            android:title="Turing Test" />
+        <item
+
+
+            android:title="Peas for Medical" />
+        <item
+
+
+            android:title="Peas for image analysis" />
+        <item
+
+
+            android:title="Peas for part picking robot" />
+        <item
+
+
+            android:title="Peas for Refinary Controller" />
+        <item
+
+
+            android:title="Intelligent Agent" />
+        <item
+
+
+            android:title="Agent" />
+        <item
+
+
+            android:title="Rational Agent" /><item
+
+
+        android:title="Advantage of Rational Agent" />
+        <item
+
+
+            android:title="Foundation of AI" />
+        <item
+
+
+            android:title="Agent interact with environment" />
+        <item
+
+
+            android:title="Omniscience vs Rational agent" />
+        <item
+
+
+            android:title="Types of Environment" />
+        <item
+
+
+            android:title="Types of Agent program" />
+        <item
+
+
+            android:title="Simple reflex agents" />
+        <item
+
+
+            android:title="Model based reflex agent" />
+        <item
+
+
+            android:title="Goal based agents" />
+        <item
+
+
+            android:title="Utility based agents" />
+        <item
+
+
+            android:title="Problem Solving" />
+        <item
+
+
+            android:title="Knowldge representation" /><item
+
+
+        android:title="Expert System" />
+        <item
+
+
+            android:title="Benifits of expert System" />
+        <item
+
+
+            android:title="Knowldge vs Intelligence" />
+        <item
+
+
+            android:title="Applications of AI" />
+        <item
+
+
+            android:title="Importance of AI" />
+        <item
+
+
+            android:title="Types of problems" />
+        <item
+
+
+            android:title="Knowldge" />
+        <item
+
+
+            android:title="Searching" />
+        <item
+
+
+            android:title="Bredth first search" />
+        <item
+
+
+            android:title="Depth first search" />
+        <item
+
+
+            android:title="Criteria for search strategies" />
+        <item
+
+
+            android:title="Prove A* search" />
+        <item
+
+
+            android:title="Fuzzy logic" />
+        <item
+
+
+            android:title="Predicate logic" />
+        <item
+
+
+            android:title="Blind search" />
+        <item
+
+
+            android:title="Admissible heuristics" />
+        <item
+
+
+            android:title="AI" />
+        <item
+
+
+            android:title="Place of AI in computer Science" />
+        <item
+
+
+            android:title="Define AI" />
+        <item
+
+
+            android:title="Characterisrics of expert system" />
+        <item
+
+
+            android:title="Propositional logic and Predicate logic" />
+        <item
+
+
+            android:title="Inference rule" /> <item
+
+
+        android:title="Artificial Nural Network" />
+
+
+
+
+    </group>
+</menu>

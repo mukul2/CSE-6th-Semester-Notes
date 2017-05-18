@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#88ff4081</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="blackText">#7b000000</color>
+    <color name="primary_text">#FFFFFF</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="mynavcolor">#B6B6B6</color>
+
+    <color name="colorpoint">#008080</color>
+    <color name="colorbody">#000000</color>
+    <color name="colorheading">#00008b</color>
+    <color name="colorbackground">#7FFFD4</color>
+</resources>

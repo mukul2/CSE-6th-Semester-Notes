@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+
+           android:orientation="vertical">
+
+
+
+           <android.support.v7.widget.CardView
+               xmlns:card_view="http://schemas.android.com/apk/res-auto"
+               xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               card_view:cardCornerRadius="5dp"
+               android:paddingBottom="10dp"
+               android:paddingTop="10dp">
+               <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/colorPrimary"
+                      android:text="What does Parallel Processing mean?"
+                      android:textSize="25dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:text="Parallel processing is a method of simultaneously breaking up and running program tasks on multiple microprocessors, thereby reducing processing time. Parallel processing may be accomplished via a computer with two or more processors or via a computer network.
+Parallel processing is also called parallel computing."
+                      android:textSize="25dp"
+                      />
+              </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+           <android.support.v7.widget.CardView
+               xmlns:card_view="http://schemas.android.com/apk/res-auto"
+               xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               card_view:cardCornerRadius="5dp"
+               android:paddingBottom="10dp"
+               android:paddingTop="10dp">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:orientation="vertical">
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="25dp"
+    android:textColor="@color/colorPrimary"
+    android:text="Explain with diagram the Flynns classicification of various computer architechure"/>
+
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="25dp"
+                       android:text="The four classifications defined by Flynn in the famous Flynn's taxonomy for classification of computer architectures."/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="25dp"
+    android:textColor="@color/colorAccent"
+    android:text="SISD"/>
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="25dp"
+                       android:text="A sequential computer exploiting no parallelism either in instructions or in data."/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="25dp"
+                       android:textColor="@color/colorAccent"
+                       android:text="SIMD"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="25dp"
+                       android:text="A parallel computer which exploits parallelism on the data streams against a single instruction."/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="25dp"
+                       android:textColor="@color/colorAccent"
+                       android:text="MISD"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="25dp"
+                       android:text="Multiple instructions operate on a single data stream."/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="25dp"
+                       android:textColor="@color/colorAccent"
+                       android:text="MIMD"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="25dp"
+                       android:text="Multiple processors execute different instructions on different data streams in a parallel manner (Multi core Superscalar is a popular example)."/>
+
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+
+
+
+           <android.support.v7.widget.CardView
+               xmlns:card_view="http://schemas.android.com/apk/res-auto"
+               xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               card_view:cardCornerRadius="5dp"
+               android:paddingBottom="10dp"
+               android:paddingTop="10dp">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:orientation="vertical">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="25dp"
+    android:textColor="@color/colorPrimary"
+    android:text="Describe the arcitechure of VAX 8600"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="25dp"
+                       android:textColor="@color/colorPrimary"
+                       android:text="Describe the arcitechure of VAX 8600"/>
+                   <ImageView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/vx8"/>
+
+
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height= "wrap_content"
+                       android:textSize="25dp"
+                       android:text="VAX : Virtual Address Extension (32-bit extension of the older 16-bit  early versions)"/>
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height= "wrap_content"
+                       android:textSize="25dp"
+                       android:text="Implements CISC architecture with micro programmed control"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height= "wrap_content"
+                       android:textSize="25dp"
+                       android:text="300 instructions with 20 different addressing modes."/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height= "wrap_content"
+                       android:textSize="25dp"
+                       android:text="Two functional units for concurrent execution of instruction of integer and floating point instructions."/>
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height= "wrap_content"
+                       android:textSize="25dp"
+                       android:text="Pipeline is built with six stages."/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height= "wrap_content"
+                       android:textSize="25dp"
+                       android:text="The instruction unit prefetches and decodes and handles branching operations"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height= "wrap_content"
+                       android:textSize="25dp"
+                       android:text="A transistor look aside buffer (TLB) is used in memory for fast generation of the physical address from the virtual address"/>
+
+
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+           <android.support.v7.widget.CardView
+               xmlns:card_view="http://schemas.android.com/apk/res-auto"
+               xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               card_view:cardCornerRadius="5dp"
+               android:paddingBottom="10dp"
+               android:paddingTop="10dp">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:orientation="vertical">
+
+
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="25dp"
+                       android:textColor="@color/colorPrimary"
+                       android:text="Intel i860 Architechure"/>
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="25dp"
+                       android:textColor="@color/colorPrimary"
+                       android:text="Intel i860 Architechure"/>
+
+                   <ImageView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/i860"/>
+
+
+
+
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="25dp"
+                       android:text="The Intel i860 Microprocessor delivers supercomputing performance in a single VLSI component. The 64-bit design of the i860 microprocessor balances integer, floating point, and graphics performance for applications such as engineering workstations, scientific computing, 3-D graphics workstations, and multi-user systems. Its parallel architecture achieves high throughput with RISC design techniques, pipelined processing units, wide data paths, large on-chip caches, million-transistor design, and fast one-micron CHMOS IV silicon technology."/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="25dp"
+                       android:text="There are 9 functional units."/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="25dp"
+                       android:text="Instruction Cache"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="25dp"
+                       android:text="Memory Management Unit"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="25dp"
+                       android:text="Data Cache"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="25dp"
+                       android:text="Bus Control Unit"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="25dp"
+                       android:text="RISC integer Unit"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="25dp"
+                       android:text="Floating point Control Unit"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="25dp"
+                       android:text="Graphics Unit"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="25dp"
+                       android:text="Pipelined Addar Unit"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="25dp"
+                       android:text="Pipelined Multiplider Unit"/>
+
+
+
+
+
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+           <android.support.v7.widget.CardView
+               xmlns:card_view="http://schemas.android.com/apk/res-auto"
+               xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               card_view:cardCornerRadius="5dp"
+               android:paddingBottom="10dp"
+               android:paddingTop="10dp">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:orientation="vertical">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/colorPrimary"
+    android:textSize="25dp"
+    android:text="How dual operation in implemented in intel i860?Why intel i860 is a super scaler processor?"/>
+
+
+
+
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+
+
+
+           <android.support.v7.widget.CardView
+               xmlns:card_view="http://schemas.android.com/apk/res-auto"
+               xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               card_view:cardCornerRadius="5dp"
+               android:paddingBottom="10dp"
+               android:paddingTop="10dp">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:orientation="vertical">
+
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="25dp"
+    android:textColor="@color/colorPrimary"
+    android:text="Describe the pipelining concept of a superscaler processor"/>
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="25dp"
+
+                       android:text="The fudamental structure of a superscaler pipeline is illustrated in fig.This diagram shows the use of three instrauction pipelines in parallel for a tripple-issue processor.Superscaler processor were originally developed as an alternative to vector processors. "/>
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="25dp"
+                       android:text="A superscaler processor of degree m can issue m instructions per cycle.In this sense,the base scaler processor,implemented eigher in RISC or CISC,has m=1.In order to fully utilize a superscalar processor of degree m,m instructions must be executable in parallel.This situation may not be true in all clock cycle.In that case,some of the pipelines may be stalling in a wait state."/>
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="25dp"
+                       android:text="In a superscalar processor,the simple operation latency should require only one cycle as in the base scalar processor.Due to the desire for a higher degree of instruction level parallelism in programs,the superscalar processor depends more on an optimizing compiler to exploit parallelism"
+                       />
+
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+
+
+
+           <android.support.v7.widget.CardView
+               xmlns:card_view="http://schemas.android.com/apk/res-auto"
+               xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               card_view:cardCornerRadius="5dp"
+               android:paddingBottom="10dp"
+               android:paddingTop="10dp">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:orientation="vertical">
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="25dp"
+    android:textColor="@color/colorPrimary"
+    android:text="Name some examples of superscalar processor"/>
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="25dp"
+                       android:text="Intel i960CA"/>
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="25dp"
+                       android:text="IBM RS/6000"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="25dp"
+                       android:text="DEC 21064"/>
+
+
+
+
+
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+
+           <android.support.v7.widget.CardView
+           xmlns:card_view="http://schemas.android.com/apk/res-auto"
+           xmlns:android="http://schemas.android.com/apk/res/android"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           card_view:cardCornerRadius="5dp"
+           android:paddingBottom="10dp"
+           android:paddingTop="10dp">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="10dp"
+           android:orientation="vertical">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:textColor="@color/colorPrimary"
+               android:text="Mismatch between S/W and H/W Parallelism"/>
+
+
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:textColor="@color/colorAccent"
+               android:text="Example"/>
+
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+
+               android:text="A= L1*L2 + L3*L4"/>
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+
+               android:text="B= L1*L2 - L3*L4"/>
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:src="@drawable/shp"
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="Software Parallelism:"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="There are 8 instructions;
+
+FOUR Load instructions (L1, L2, L3 and L4).
+
+TWO Multiply instructions (X1 and X2).
+
+ONE Add instruction (+)
+
+ONE Subtract instruction (-)"
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="The parallelism varies from 4 to 2 in three cycles"
+               />
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:src="@drawable/shp2"
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="Hardware Parallelism:"
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="Parallel Execution:"
+               />
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:src="@drawable/shp3"
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="Using TWO-issue processor:"
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="The processor can execute one memory access (Load or Store) and one arithmetic operation (multiply, add, subtract) simultaneously."
+               />
+           />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="The program must execute in 7 cycles."
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="The h/w parallelism average is 8/7=1.14."
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:textColor="@color/colorAccent"
+               android:text="It is clear from this example the mismatch between the s/w and h/w parallelism."
+               />
+
+       </LinearLayout>
+       </android.support.v7.widget.CardView>
+
+
+       <android.support.v7.widget.CardView
+           xmlns:card_view="http://schemas.android.com/apk/res-auto"
+           xmlns:android="http://schemas.android.com/apk/res/android"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           card_view:cardCornerRadius="5dp"
+           android:paddingBottom="10dp"
+           android:paddingTop="10dp">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="10dp"
+           android:orientation="vertical">
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:textColor="@color/colorPrimary"
+               android:text="Example:"/>
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:src="@drawable/disturb"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+
+               android:text="A h/w platform of a Dual-Processor system, single issue processors are used to execute the same program."/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="Six processor cycles are needed to execute the 12 instructions by two processors." />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="S1 and S2 are two inserted store operations." />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="L5 and L6 are two inserted load operations." />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="The added instructions are needed for inter-processor communication through the shared memory." />
+       </LinearLayout>
+       </android.support.v7.widget.CardView>
+
+           <android.support.v7.widget.CardView
+               xmlns:card_view="http://schemas.android.com/apk/res-auto"
+               xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               card_view:cardCornerRadius="5dp"
+               android:paddingBottom="10dp"
+               android:paddingTop="10dp">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:orientation="vertical">
+
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="25dp"
+    android:textColor="@color/colorPrimary"
+    android:text="How missmatch problem can be solved"/>
+
+
+
+
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="25dp"
+                       android:text="In fig,six processor cycles are needed to execute the 12 instructions  by two processors.S1 and S2 are two inserted stored operation and I5 and I6 are two inserted load operation.These added instructions are needed for inter processor communication through the shared memory"/>
+                   <ImageView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/swp5"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="25dp"
+                       android:text="Spacially to solve the mismatch problem between software and hardware parallelism one approach is to develop compilation support and the other is through hardware redesign for more efficient exploitation by an intelligent compiler.These two approaches must co-operate with each other to produce the best result."/>
+
+
+
+
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+       </LinearLayout>
+
+
+
+   </ScrollView>
+</RelativeLayout>

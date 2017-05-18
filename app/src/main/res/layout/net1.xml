@@ -1,0 +1,1723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+      >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                card_view:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorbackground"
+
+                        android:text="Computer Network "
+                        android:textColor="@color/colorheading"
+                        android:textSize="25dp" />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Computer network is a collection of computer system and other computer hardware that are connected to share data and information among them. Computer on a network are known as node." />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:scaleType="fitCenter"
+
+                        android:src="@drawable/computernet" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                card_view:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Computer Network Applications"
+
+                        android:textColor="@color/colorheading"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="There are several uses of network some of them are." />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" File/ Resource sharing "
+
+                        android:textColor="@color/colorpoint"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" Networking is used to share file and other resources from one user to other."
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" Printer and peripheral sharing "
+
+                        android:textColor="@color/colorpoint"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Networking is used to share data for receiver transmitter from CPU to Peripheral device or vice versa."
+
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" Internet connection sharing "
+
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" Networking is used to share Internet connection to worldwide." />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" Multiplayer games "
+
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" More than one player can enjoy a game on a connection using network."
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" Internet telephone service "
+
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Networking is used to Internet telephone service for a communication has done without wire connection " />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Home application "
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Network access provides home user with connectivity to remote computer." />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" Social issues "
+
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" Social networks, message boards, content sharing sites and a host of other application allow people to share your views with like minded individuals."
+
+                        />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                card_view:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" Design issues for  an efficient  network "
+
+                        android:textColor="@color/colorheading"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" The various key design issues are present in several layers in computer networks. The important design issues are:" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" 1. Addressing: "
+                        android:textColor="@color/colorpoint"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mechanism for identifying senders and receivers, on the network need some form of addressing. There are multiple processes running on one machine. Some means is needed for a process on one machine to specify with whom it wants to communicate.
+ "
+
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" 2. Error Control: "
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="There may be erroneous transmission due to several problems during communication. These are due to problem in communication circuits, physical medium, due to thermal noise and interference. Many error detecting and error correcting codes are known, but both ends of the connection must agree on which one being used. In addition, the receiver must have some mechanism of telling the sender which messages have been received correctly and which has not.
+ "
+
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="3. Flow control: "
+                        android:textColor="@color/colorpoint"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="If there is a fast sender at one end sending data to a slow receiver, then there must be flow control mechanism to control the loss of data by slow receivers. There are several mechanisms used for flow control such as increasing buffer size at receivers, slow down the fast sender, and so on. Some process will not be in position to accept arbitrarily long messages. Then, there must be some mechanism to   disassembling, transmitting and then reassembling messages."
+
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" 4. Multiplexing / demultiplexing: "
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="If the data has to be transmitted on transmission  media separately, it is inconvenient or expensive to setup separate connection for each pair of communicating processes. So, multiplexing is needed in the physical layer at sender end and demultiplexing is need at the receiver end.
+ " />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="5. Routing: "
+
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" When data has to be transmitted from source to destination, there may be multiple paths between them. An optimized (shortest) route must be chosen. This decision is made on the basis of several routing algorithms, which chooses optimized route to the destination.
+
+ "
+
+                        />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                card_view:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NETWORK HARDWARE"
+                        android:textColor="@color/colorheading"
+
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" There are two types of transmission technology that are in widespread use: broadcast links and point-to-point links:"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Broadcast Links: "
+                        android:textColor="@color/colorpoint"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="On a broadcast network, the communication channel is shared by all the machines on the network; packets sent by any machine are received by all the others. An address field within each packet specifies the intended recipient. Broadcast systems usually also allow the possibility of addressing a packet to all destinations by using a special code in the address field. When a packet with this code is transmitted, it is received and processed by every machine on the network. This mode of operation is called broadcasting. Some broadcast systems also support transmission to a subset of the machines, which known as multicasting."
+
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Point-to-point Links "
+
+                        android:textColor="@color/colorheading" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" Point-to-point links connect individual pairs of machines. To go from the source to the destination on a network made up of point-to-point links, short messages, called packets in certain contexts, may have to first visit one or more intermediate machines. Often multiple routes, of different lengths, are possible, so finding good ones is important in point-to-point networks. Point-to-point transmission with exactly one sender and exactly one receiver is sometimes called unicasting.
+ "
+
+                        />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                card_view:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorbackground"
+
+                        android:text="Computer Network Topology"
+                        android:textColor="@color/colorheading"
+                        android:textSize="25dp" />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Network Topology is the schematic description of a network arrangement, connecting various nodes(sender and receiver) through lines of connection." />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="BUS Topology"
+                        android:textColor="@color/colorheading"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bus topology is a network type in which every computer and network device is connected to single cable. When it has exactly two endpoints, then it is called Linear Bus topology." />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:scaleType="fitCenter"
+
+                        android:src="@drawable/bustopology" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Features"
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1.It transmits data only in one direction.\n2.Every device is connected to a single cable" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Advantages"
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1.It is cost effective.\n2.Cable required is least compared to other network topology.\n3.Used in small networks.\n4.It is easy to understand.\n5Easy to expand joining two cables together." />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Disadvantages"
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1.Cables fails then whole network fails.\n2.If network traffic is heavy or nodes are more the performance of the network decreases.\n3.Cable has a limited length.\n4.It is slower than the ring topology." />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="RING Topology"
+                        android:textColor="@color/colorheading"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="It is called ring topology because it forms a ring as each computer is connected to another computer, with the last one connected to the first. Exactly two neighbours for each device." />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:scaleType="fitCenter"
+
+                        android:src="@drawable/ringtopology" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Features"
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1.A number of repeaters are used for Ring topology with large number of nodes, because if someone wants to send some data to the last node in the ring topology with 100 nodes, then the data will have to pass through 99 nodes to reach the 100th node. Hence to prevent data loss repeaters are used in the network.\n2.The transmission is unidirectional, but it can be made bidirectional by having 2 connections between each Network Node, it is called Dual Ring Topology.\n3.In Dual Ring Topology, two ring networks are formed, and data flow is in opposite direction in them. Also, if one ring fails, the second ring can act as a backup, to keep the network up.\n4.Data is transferred in a sequential manner that is bit by bit. Data transmitted, has to pass through each node of the network, till the destination node." />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Advantages"
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1.Transmitting network is not affected by high traffic or by adding more nodes, as only the nodes having tokens can transmit data.\n2.Cheap to install and expand." />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Disadvantages"
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1.Troubleshooting is difficult in ring topology.\n2.Adding or deleting the computers disturbs the network activity.\n3.Failure of one computer disturbs the whole network." />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="STAR Topology"
+                        android:textColor="@color/colorheading"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="In this type of topology all the computers are connected to a single hub through a cable. This hub is the central node and all others nodes are connected to the central node." />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/startopology" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Features"
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1.Every node has its own dedicated connection to the hub.\n2.Hub acts as a repeater for data flow.\n3.Can be used with twisted pair, Optical Fibre or coaxial cable." />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Advantages"
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1.Fast performance with few nodes and low network traffic.\n2.Hub can be upgraded easily.\n3.Easy to troubleshoot.\n4.Easy to setup and modify.\n5.Only that node is affected which has failed, rest of the nodes can work smoothly.
+" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Disadvantages"
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1.Cost of installation is high.\n2.Expensive to use.\n3.If the hub fails then the whole network is stopped because all the nodes depend on the hub.\n4.Performance is based on the hub that is it depends on its capacity." />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="MESH Topology"
+                        android:textColor="@color/colorheading"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="It is a point-to-point connection to other nodes or devices. All the network nodes are connected to each other. Mesh has n(n-1)/2 physical channels to link n devices.
+
+There are two techniques to transmit data over the Mesh topology, they are :
+
+\n*Routing
+\n*Flooding" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:scaleType="fitCenter"
+
+                        android:src="@drawable/meshtopology" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Features"
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1.Fully connected.\n2.Robust.\n3.Not flexible." />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Advantages"
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1.Each connection can carry its own data load.\n2.It is robust.\n3.Fault is diagnosed easily.\n4.Provides security and privacy." />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Disadvantages"
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1.Heavily cabled.\n2.Costly.\n3.If more nodes are added maintenance is difficult.\n4.Central hub fails, network fails." />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="HYBRID Topology"
+                        android:textColor="@color/colorheading"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="It is two different types of topologies which is a mixture of two or more topologies. For example if in an office in one department ring topology is used and in another star topology is used, connecting these topologies will result in Hybrid Topology (ring topology and star topology)." />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:scaleType="fitCenter"
+
+                        android:src="@drawable/hybridtopology" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Features"
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1.It is a combination of two or topologies\n2.Inherits the advantages and disadvantages of the topologies included" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Advantages"
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1.Reliable as Error detecting and trouble shooting is easy.\n2.Effective.\n3.Scalable as size can be increased easily.\n4.Flexible." />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Disadvantages"
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1.Complex in design.\n2.Costly.
+" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TREE Topology"
+                        android:textColor="@color/colorheading"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="It has a root node and all other nodes are connected to it forming a hierarchy. It is also called hierarchical topology. It should at least have three levels to the hierarchy." />
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/treetopology" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Features"
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1.Ideal if workstations are located in groups.\n2.Used in Wide Area Network." />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Advantages"
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1.Extension of bus and star topologies.\n2.Expansion of nodes is possible and easy.\n3.Easily managed and maintained.\n4.Error detection is easily done." />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Disadvantages"
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1.Heavily cabled.\n2.Costly.\n3.If more nodes are added maintenance is difficult.\n4.Central hub fails, network fails." />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                card_view:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorbackground"
+
+                        android:text="Transmission Modes in Computer Networks"
+                        android:textColor="@color/colorheading"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Transmission mode means transferring of data between two devices. It is also called communication mode. These modes direct the direction of flow of information. There are three types of transmission mode. They are :\n*Simplex Mode\n*Half duplex Mode\n*Full duplex Mode" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:scaleType="fitCenter"
+
+                        android:src="@drawable/transmissionmode" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SIMPLEX Mode"
+                        android:textColor="@color/colorheading"
+                        android:textSize="20dp" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:scaleType="fitCenter"
+
+                        android:src="@drawable/simplex" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="In this type of transmission mode data can be sent only through one direction i.e. communication is unidirectional. We cannot send a message back to the sender. Unidirectional communication is done in Simplex Systems.
+
+\nExamples of simplex Mode is loudspeaker, television broadcasting, television and remote, keyboard and monitor etc." />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="HALF DUPLEX Mode"
+                        android:textColor="@color/colorheading"
+                        android:textSize="20dp" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:scaleType="fitCenter"
+
+                        android:src="@drawable/halfduplex" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="In half duplex system we can send data in both directions but it is done one at a time that is when the sender is sending the data then at that time we can’t send the sender our message. The data is sent in one direction.
+
+\nExample of half duplex is a walkie- talkie in which message is sent one at a time and messages are sent in both the directions." />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="FULL DUPLEX Mode"
+                        android:textColor="@color/colorheading"
+                        android:textSize="20dp" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:scaleType="fitCenter"
+
+                        android:src="@drawable/fullduplex" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="In full duplex system we can send data in both directions as it is bidirectional. Data can be sent in both directions simultaneously. We can send as well as we receive the data.
+
+\nExample of Full Duplex is a Telephone Network in which there is communication between two persons by a telephone line, through which both can talk and listen at the same time." />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                card_view:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="OSI Reference Model "
+
+                        android:textColor="@color/colorheading"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" The International Standard Organization has a well-defined model for Communication Systems known as Open System Interconnection, or the OSI Model. This layered model is a conceptualized view of how one system should communicate with the other, using various protocols defined in each layer. "
+
+                        />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/osi" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Application Layer:"
+                        android:textColor="@color/colorpoint"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="This layer is responsible for providing interface to the application user. This layer encompasses protocols which directly interact with the user"
+
+
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Presentation Layer:"
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" This layer defines how data in the native format of remote host should be presented in the native format of host.
+" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Session Layer:"
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" This layer maintains sessions between remote hosts. For example, once user/password authentication is done, the remote host maintains this session for a while and does not ask for authentication again in that time span.
+" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Transport Layer:"
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" This layer is responsible for end-to-end delivery between hosts.
+" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Network Layer:"
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" This layer is responsible for address assignment and uniquely addressing hosts in a network.
+" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" Data Link Layer: "
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" This layer is responsible for reading and writing data from and onto the line. Link errors are detected at this layer.
+" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" Physical Layer:: "
+                        android:textColor="@color/colorpoint" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" This layer defines the hardware, cabling wiring, power output, pulse rate etc.
+" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                card_view:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="OSI VS TCP/IP "
+
+                        android:textColor="@color/colorheading"
+                        android:textSize="25dp" />
+
+
+                    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_margin="5dp"
+                        android:padding="10dp">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="2dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_column="1"
+                                android:padding="5dp"
+                                android:text="OSI MODEL"
+                                android:textColor="@color/colorpoint"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_column="2"
+                                android:padding="5dp"
+                                android:text="TCP/IP MODEL"
+                                android:textColor="@color/colorpoint"
+                                android:textStyle="bold" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="2dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_column="1"
+                                android:padding="5dp"
+                                android:text="1. OSI is a generic, protocol independent standard, acting as a communication gateway between the network and end user." />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_column="2"
+                                android:padding="5dp"
+                                android:text="1. TCP/IP model is based on standard protocols around which the Internet has developed. It is a communication protocol, which allows connection of hosts over a network." />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="2dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_column="1"
+                                android:padding="5dp"
+                                android:text="2. In OSI model the transport layer guarantees the delivery of packets." />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_column="2"
+                                android:padding="5dp"
+                                android:text="2. In TCP/IP model the transport layer does not guarantees delivery of packets. Still the TCP/IP model is more reliable." />
+                        </TableRow>
+
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="2dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_column="1"
+                                android:padding="5dp"
+                                android:text="3. Follows vertical approach." />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_column="2"
+                                android:padding="5dp"
+                                android:text="3. Follows horizontal approach." />
+                        </TableRow>
+
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="2dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_column="1"
+                                android:padding="5dp"
+                                android:text="4. OSI model has a separate Presentation layer and Session layer." />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_column="2"
+                                android:padding="5dp"
+                                android:text="4. TCP/IP does not have a separate Presentation layer or Session layer." />
+                        </TableRow>
+
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="2dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_column="1"
+                                android:padding="5dp"
+                                android:text="5. OSI is a reference model around which the networks are built. Generally it is used as a guidance tool." />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_column="2"
+                                android:padding="5dp"
+                                android:text="5. TCP/IP model is, in a way implementation of the OSI model." />
+                        </TableRow>
+
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="2dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_column="1"
+                                android:padding="5dp"
+                                android:text="6. Network layer of OSI model provides both connection oriented and connectionless service." />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_column="2"
+                                android:padding="5dp"
+                                android:text="6. The Network layer in TCP/IP model provides connectionless service." />
+                        </TableRow>
+
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="2dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_column="1"
+                                android:padding="5dp"
+                                android:text="7. OSI model has a problem of fitting the protocols into the model." />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_column="2"
+                                android:padding="5dp"
+                                android:text="7. TCP/IP model does not fit any protocol" />
+                        </TableRow>
+
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="2dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_column="1"
+                                android:padding="5dp"
+                                android:text="8. Protocols are hidden in OSI model and are easily replaced as the technology changes." />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_column="2"
+                                android:padding="5dp"
+                                android:text="8. In TCP/IP replacing protocol is not easy." />
+                        </TableRow>
+
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="2dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_column="1"
+                                android:padding="5dp"
+                                android:text="9. OSI model defines services, interfaces and protocols very clearly and makes clear distinction between them. It is protocol independent." />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_column="2"
+                                android:padding="5dp"
+                                android:text="9. In TCP/IP, services, interfaces and protocols are not clearly separated. It is also protocol dependent." />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="2dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_column="1"
+                                android:padding="5dp"
+                                android:text="10. It has 7 layers." />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_column="2"
+                                android:padding="5dp"
+                                android:text="10. It has 4 layers" />
+                        </TableRow>
+
+
+                    </TableLayout>
+
+                    <ImageView
+
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/tcpiposi" />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                card_view:cardCornerRadius="5dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:text="Computer Network "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="25dp"
+                        />
+
+                    <TextView
+                        android:text="Computer network is a collection of computer system and other computer hardware that are connected to share data and information among them. Computer on a network are known as node."
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                       />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:src="@drawable/computernet"
+
+                        android:scaleType="fitCenter" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                card_view:cardCornerRadius="5dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:text="Computer Network Applications"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="25dp"
+                        />
+                    <TextView
+                        android:text="There are several uses of network some of them are."
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        />
+                    <TextView
+                        android:text=" File/ Resource sharing "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="25dp"
+                        />
+
+                    <TextView
+                        android:text=" Networking is used to share file and other resources from one user to other."
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        />
+                    <TextView
+                        android:text=" Printer and peripheral sharing "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="25dp"
+                        />
+
+                    <TextView
+                        android:text=" networking is used to share data for receiver transmitter from CPU to Peripheral device or vice versa."
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        />
+
+
+
+
+
+                    <TextView
+                        android:text=" Internet connection sharing "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="25dp"
+                        />
+
+                    <TextView
+                        android:text=" Networking is used to share Internet connection to worldwide."
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:text=" Multiplayer games "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="25dp"
+                        />
+
+                    <TextView
+                        android:text=" More than one player can enjoy a game on a connection using network."
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        />
+
+                    <TextView
+                        android:text=" Internet telephone service "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="25dp"
+                        />
+
+                    <TextView
+                        android:text=" networking is used to Internet telephone service for a communication has done without wire connection "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        />
+
+                    <TextView
+                        android:text="Home application "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="25dp"
+                        />
+
+                    <TextView
+                        android:text=" Network access provides home user with connectivity to remote computer."
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        />
+
+
+                    <TextView
+                        android:text=" Social issues "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="25dp"
+                        />
+
+                    <TextView
+                        android:text=" Social networks, message boards, content sharing sites and a host of other application allow people to share your views with like minded individuals."
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        />
+
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                card_view:cardCornerRadius="5dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:text=" Design issues for  an efficient  network "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="25dp"
+                        />
+                    <TextView
+                        android:text=" The various key design issues are present in several layers in computer networks. The important design issues are:"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        />
+
+
+                    <TextView
+                        android:text=" 1. Addressing: "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="25dp"
+                        />
+
+                    <TextView
+                        android:text="Mechanism for identifying senders and receivers, on the network need some form of addressing. There are multiple processes running on one machine. Some means is needed for a process on one machine to specify with whom it wants to communicate.
+ "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        />
+
+
+
+
+                    <TextView
+                        android:text=" 2. Error Control: "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="25dp"
+                        />
+
+                    <TextView
+                        android:text="There may be erroneous transmission due to several problems during communication. These are due to problem in communication circuits, physical medium, due to thermal noise and interference. Many error detecting and error correcting codes are known, but both ends of the connection must agree on which one being used. In addition, the receiver must have some mechanism of telling the sender which messages have been received correctly and which has not.
+ "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        />
+
+
+
+                    <TextView
+                        android:text=" 3. Flow control: "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="25dp"
+                        />
+
+                    <TextView
+                        android:text="If there is a fast sender at one end sending data to a slow receiver, then there must be flow control mechanism to control the loss of data by slow receivers. There are several mechanisms used for flow control such as increasing buffer size at receivers, slow down the fast sender, and so on. Some process will not be in position to accept arbitrarily long messages. Then, there must be some mechanism to   disassembling, transmitting and then reassembling messages."
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        />
+
+
+                    <TextView
+                        android:text=" 4. Multiplexing / demultiplexing: "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="25dp"
+                        />
+
+                    <TextView
+                        android:text="If the data has to be transmitted on transmission  media separately, it is inconvenient or expensive to setup separate connection for each pair of communicating processes. So, multiplexing is needed in the physical layer at sender end and demultiplexing is need at the receiver end.
+ "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:id="@+id/textView41" />
+
+                    <TextView
+                        android:text=" 5. Routing: "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="25dp"
+                        />
+                    <TextView
+                        android:text=" When data has to be transmitted from source to destination, there may be multiple paths between them. An optimized (shortest) route must be chosen. This decision is made on the basis of several routing algorithms, which chooses optimized route to the destination.
+
+ "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        />
+
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                card_view:cardCornerRadius="5dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:text="NETWORK HARDWARE"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="25dp"
+                        android:id="@+id/textView40" />
+                    <TextView
+                        android:text=" There are two types of transmission technology that are in widespread use: broadcast links and point-to-point links:"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        />
+
+                    <TextView
+                        android:text="Broadcast Links: "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="25dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="On a broadcast network, the communication channel is shared by all the machines on the network; packets sent by any machine are received by all the others. An address field within each packet specifies the intended recipient. Broadcast systems usually also allow the possibility of addressing a packet to all destinations by using a special code in the address field. When a packet with this code is transmitted, it is received and processed by every machine on the network. This mode of operation is called broadcasting. Some broadcast systems also support transmission to a subset of the machines, which known as multicasting."
+
+
+                        />
+
+                    <TextView
+                        android:text="Point-to-point Links "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="25dp"
+                        />
+
+                    <TextView
+                        android:text=" Point-to-point links connect individual pairs of machines. To go from the source to the destination on a network made up of point-to-point links, short messages, called packets in certain contexts, may have to first visit one or more intermediate machines. Often multiple routes, of different lengths, are possible, so finding good ones is important in point-to-point networks. Point-to-point transmission with exactly one sender and exactly one receiver is sometimes called unicasting.
+ "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:text="Which of the voice I layer handle each of the following a breaking transmitted bit stream into frames be determined in which route through the subnet to use
+            Show how to provide communication to the top layer of 5 layered network
+            Define wall and describe the world Islam architecture or protocol how does it works
+            What is IP address classified different classes of IP address with its range and specify the list of all private address
+            Describe the frame relay frame format
+            Name and describe the ATM layers with their functions
+            What are the function of network layers why it is necessary
+            Difference between hard handoff and soft handoff of procedure
+            Describe ipv4 header format
+            What is subnet masking
+            How do the Subnet Mask and supernet mask differ from default Mask in classful addressing
+            What are Sonet and SDH
+            Which devices are used in Sonnet transmission
+            Israt
+            Computer network is a collection of computer system and other computer hardware that are connected to share data and information among them computer on a network are known
+ "
+                        />
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</RelativeLayout>

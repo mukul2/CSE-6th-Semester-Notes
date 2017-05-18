@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+ 
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="5dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:text=" Network security "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:textColor="@color/colorheading"
+                        android:textSize="25dp"
+                        android:background="@color/colorbackground"
+                        />
+
+                    <TextView
+                        android:text="Network security is the security provided to a network from unauthorized access and risks. It is the duty of network administrators to adopt preventive measures to protect their networks from potential security threats.
+\nComputer networks that are involved in regular transactions and communication within the government, individuals, or business require security. The most common and simple way of protecting a network resource is by assigning it a unique name and a corresponding password.
+"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView11" />
+
+
+
+                    <TextView
+                        android:text=" Types of Network Security Devices
+ "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:textColor="@color/colorheading"
+                        android:textSize="25dp"
+                        />
+
+
+
+                    <TextView
+                        android:text="  Active Devices
+ "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorpoint"
+
+                        />
+
+                    <TextView
+                        android:text=" These security devices block the surplus traffic. Firewalls, antivirus scanning devices, and content filtering devices are the examples of such devices.
+"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+
+
+
+
+
+
+
+                    <TextView
+                        android:text="  Passive Devices
+"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorpoint"
+
+                        />
+
+                    <TextView
+                        android:text=" These devices identify and report on unwanted traffic, for example, intrusion detection appliances.
+"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+
+
+
+
+                    <TextView
+                        android:text="  Preventative Devices"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorpoint"
+
+                        />
+
+                    <TextView
+                        android:text=" These devices scan the networks and identify potential security problems. For example, penetration testing devices and vulnerability assessment appliances.
+"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+                    <TextView
+                        android:text=" Unified Threat Management (UTM)
+"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorpoint"
+
+                        />
+
+                    <TextView
+                        android:text=" These devices serve as all-in-one security devices. Examples include firewalls, content filtering, web caching, etc."
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="5dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:text="Firewalls"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:textColor="@color/colorheading"
+                        android:textSize="25dp"
+                        android:background="@color/colorbackground"
+                        />
+
+                    <TextView
+                        android:text="A firewall is a network security system that manages and regulates the network traffic based on some protocols. A firewall establishes a barrier between a trusted internal network and the internet.
+\nFirewalls exist both as software that run on a hardware and as hardware appliances. Firewalls that are hardware-based also provide other functions like acting as a DHCP server for that network.
+\nMost personal computers use software-based firewalls to secure data from threats from the internet. Many routers that pass data between networks contain firewall components and conversely, many firewalls can perform basic routing functions.
+\nFirewalls are commonly used in private networks or intranets to prevent unauthorized access from the internet. Every message entering or leaving the intranet goes through the firewall to be examined for security measures.
+\nAn ideal firewall configuration consists of both hardware and software based devices. A firewall also helps in providing remote access to a private network through secure authentication certificates and logins.
+"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                         />
+
+                    <TextView
+                        android:text=" Hardware and Software Firewalls
+
+ "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorpoint"
+
+                        />
+
+                    <TextView
+                        android:text="
+Hardware firewalls are standalone products. These are also found in broadband routers. Most hardware firewalls provide a minimum of four network ports to connect other computers. For larger networks − e.g., for business purpose − business networking firewall solutions are available.
+\nSoftware firewalls are installed on your computers. A software firewall protects your computer from internet threats.
+"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+
+
+
+
+
+
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Antivirous"/>
+
+                    <TextView
+                        android:text=" An antivirus is a tool that is used to detect and remove malicious software. It was originally designed to detect and remove viruses from computers.
+\nModern antivirus software provide protection not only from virus, but also from worms, Trojan-horses, adwares, spywares, keyloggers, etc. Some products also provide protection from malicious URLs, spam, phishing attacks, botnets, DDoS attacks, etc.
+"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+
+
+
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="5dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:text="Cryptography"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:textColor="@color/colorheading"
+                        android:textSize="25dp"
+                        android:background="@color/colorbackground"
+                        />
+
+                    <TextView
+                        android:text="Cryptography involves creating written or generated codes that allows information to be kept secret. Cryptography converts data into a format that is unreadable for an unauthorized user, allowing it to be transmitted without anyone decoding it back into a readable format, thus compromising the data."
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:src="@drawable/cryptography"
+
+                        android:scaleType="fitCenter" />
+
+                    <TextView
+                        android:text="  The terminology used in cryptography is given below: "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorpoint"
+
+                        />
+                    <TextView
+                        android:text="  1. Plaintext.
+ "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorpoint"
+
+                        />
+
+
+                    <TextView
+                        android:text="
+The original message or data that is fed into the algorithm as input is called plaintext.
+"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+
+
+
+
+
+
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="Encryption algorithm"/>
+
+                    <TextView
+                        android:text=" The encryption algorithm is the algorithm that performs various substitutions and transformations on the plaintext. Encryption is the process of changing plaintext into cipher text.
+"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Ciphertext"/>
+
+                    <TextView
+                        android:text=" Ciphertext is the encrypted form the message. It is the scrambled message produced as output. It depends upon the plaintext and the key.
+"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Decryption algorithm"/>
+
+                    <TextView
+                        android:text=" The process of changing Ciphertext into plain text is known as decryption. Decryption algorithm is essentially the encryption algorithm run in reverse. It takes the Ciphertext and the key and produces the original plaintext.
+"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Key."/>
+
+                    <TextView
+                        android:text="It also acts as input to the encryption algorithm. The exact substitutions and transformations performed by the algorithm depend on the key. Thus a key is a number or a set of number that the algorithm uses to perform encryption and decryption.
+"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</RelativeLayout>
+

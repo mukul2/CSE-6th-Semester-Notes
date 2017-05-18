@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+
+      <android.support.v7.widget.CardView
+          xmlns:card_view="http://schemas.android.com/apk/res-auto"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dp"
+          android:layout_marginLeft="5dp"
+          android:layout_marginRight="5dp"
+          card_view:cardCornerRadius="5dp"
+          android:paddingBottom="10dp"
+          android:paddingTop="10dp">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="10dp"
+          android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="25dp"
+    android:textColor="@color/colorPrimary"
+    android:text="What is Distributed Operating System?"
+    />
+
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="25dp"
+              android:text="A Distributed operating System is one that links to its user like an ordinary centralized operating system,runs on multiple ,independent central processing units."
+              />
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="25dp"
+              android:text="The key concept here  is transparency.In ither words the use of multiple processors should be insivisble to the users"
+              />
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="25dp"
+              android:text="Another way of expressing the same idea is to say that the user views the system as a Virtual uniprocessor not as a collection of distinct machines"
+              />
+
+
+
+      </LinearLayout>
+      </android.support.v7.widget.CardView>
+
+       <android.support.v7.widget.CardView
+           xmlns:card_view="http://schemas.android.com/apk/res-auto"
+           xmlns:android="http://schemas.android.com/apk/res/android"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           card_view:cardCornerRadius="5dp"
+           android:paddingBottom="10dp"
+           android:paddingTop="10dp">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="10dp"
+           android:orientation="vertical">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textColor="@color/colorPrimary"
+               android:textSize="25dp"
+               android:text="Issues is Desigining a Distributed Operating system"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="1. Transparency"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="2. Reliability"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="3. Flexibility"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="4. Performance"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="5. Scalability"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="6. Security"/>
+
+
+
+
+       </LinearLayout>
+       </android.support.v7.widget.CardView>
+       <android.support.v7.widget.CardView
+           xmlns:card_view="http://schemas.android.com/apk/res-auto"
+           xmlns:android="http://schemas.android.com/apk/res/android"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           card_view:cardCornerRadius="5dp"
+           android:paddingBottom="10dp"
+           android:paddingTop="10dp">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="10dp"
+           android:orientation="vertical">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:textColor="@color/colorPrimary"
+               android:text="Important design factor influence the flaxibility of a bus"
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:textColor="@color/colorPrimary"
+               android:text="The most important factor that influences the flexibilityof a distributed OS is the model used for desiging its kernel."/>
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="The kernel of an OS is its central controlling part that provides basic system facilities."/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="Two commonly used modfels for kernel design in distributed OS are"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="1.	Monolithic kernel"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="2.	Micro kernel"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="In the monolithic kernel model,most OS service such as process management,memory management,device management and interprocess communication are provided by the kernel.As a result,the kernel has a large monolithic structure."/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="25dp"
+    android:text="In micro karnel mode,the main goal is to keep the kernel as small as possible.Therefore,in this model,the kernel provides only the minimal facilities such as interprocess communication,a limites amount of process management and memory management."/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="Advantages and disadvantages of Micro kernel"
+               />
+
+       </LinearLayout>
+       </android.support.v7.widget.CardView>
+
+       <android.support.v7.widget.CardView
+           xmlns:card_view="http://schemas.android.com/apk/res-auto"
+           xmlns:android="http://schemas.android.com/apk/res/android"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           card_view:cardCornerRadius="5dp"
+           android:paddingBottom="10dp"
+           android:paddingTop="10dp">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="10dp"
+           android:orientation="vertical">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:textColor="@color/colorPrimary"
+               android:text="What do you mean  by fault? Explain different types of fault."/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="A system is said  to Fail when it does not meet the specification.A  fault is a malfunction,probably caused by a design error, a manucafturing error,a programming error,physical damage and many other causes."/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="Classifications of Faults"
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="1.	Transient Fault"
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="Transient fault occurs once and then disappears..If the operation is repeated,the fault goes away."
+               />
+
+
+
+           <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="25dp"
+           android:text="2.	Intermitlent fault"
+           />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="An Intermittent fault occurs,then vanishes of its own accord,then reappears and so on."
+               />
+
+           <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="25dp"
+           android:text="3.	Permanent fault"
+           />
+
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="Permanent fault is one that continues to exists until the faulty component is repaired."
+               />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="Processor fault"
+               />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="There are two types of processor faults"
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="1.	Fail-silent faults"
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="2.	Byzantine faults"
+               />
+       </LinearLayout>
+       </android.support.v7.widget.CardView>
+
+       <android.support.v7.widget.CardView
+           xmlns:card_view="http://schemas.android.com/apk/res-auto"
+           xmlns:android="http://schemas.android.com/apk/res/android"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           card_view:cardCornerRadius="5dp"
+           android:paddingBottom="10dp"
+           android:paddingTop="10dp">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="10dp"
+           android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/colorPrimary"
+    android:textSize="25dp"
+    android:text=": Describe a way of Fault tolerance using active replication Or Explain TMR(Tripple modular redundency) Or write short notes on TMR"/>
+
+
+       </LinearLayout>
+       </android.support.v7.widget.CardView>
+
+
+       <android.support.v7.widget.CardView
+           xmlns:card_view="http://schemas.android.com/apk/res-auto"
+           xmlns:android="http://schemas.android.com/apk/res/android"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           card_view:cardCornerRadius="5dp"
+           android:paddingBottom="10dp"
+           android:paddingTop="10dp">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="10dp"
+           android:orientation="vertical">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textColor="@color/colorPrimary"
+               android:textSize="25dp"
+               android:text="Define Distributed File System"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="A distributed file system (DFS) is a file system with data stored on a server. The data is accessed and processed as if it was stored on the local client machine. The DFS makes it convenient to share information and files among users on a network in a controlled and authorized way. "/>
+
+       </LinearLayout>
+       </android.support.v7.widget.CardView>
+
+       <android.support.v7.widget.CardView
+           xmlns:card_view="http://schemas.android.com/apk/res-auto"
+           xmlns:android="http://schemas.android.com/apk/res/android"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           card_view:cardCornerRadius="5dp"
+           android:paddingBottom="10dp"
+           android:paddingTop="10dp">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="10dp"
+           android:orientation="vertical">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Define File Service"
+               android:textSize="25dp"
+               android:textColor="@color/colorPrimary"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Define File Service"
+               android:textSize="25dp"
+               android:textColor="@color/colorPrimary"/>
+       </LinearLayout>
+       </android.support.v7.widget.CardView>
+
+          <android.support.v7.widget.CardView
+              xmlns:card_view="http://schemas.android.com/apk/res-auto"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="5dp"
+              android:layout_marginLeft="5dp"
+              android:layout_marginRight="5dp"
+              card_view:cardCornerRadius="5dp"
+              android:paddingBottom="10dp"
+              android:paddingTop="10dp">
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:padding="10dp"
+                  android:orientation="vertical">
+
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="Define File Service"
+                      android:textSize="25dp"
+                      android:textColor="@color/colorPrimary"/>
+
+
+
+              </LinearLayout>
+          </android.support.v7.widget.CardView>
+
+
+
+
+
+      </LinearLayout>
+
+
+   </ScrollView>
+</RelativeLayout>

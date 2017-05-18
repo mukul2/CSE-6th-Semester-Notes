@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/pari"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            card_view:cardCornerRadius="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:text="What is DSP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/textView" />
+
+            <TextView
+                android:text="Digital signal processing (DSP) is the use of digital processing, such as by computers, to perform a wide variety of signal processing operations. The signals processed in this manner are a sequence of numbers that represent samples of a continuous variable in a domain such as time, space, or frequency."
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            card_view:cardCornerRadius="5dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="Draw the block diagram of DSP system"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3" />
+
+            <TextView
+                android:text="While converting an analog input signal into a analog output signal digitally,there are three basic elements which are needed.They are"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4" />
+
+            <TextView
+                android:text="1.  A/D converter"
+                android:textSize="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5" />
+            <TextView
+                android:text="2.  Digital signal processor"
+                android:textSize="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="3.  D/A sonverter"
+                android:textSize="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/bdsp"
+                android:id="@+id/imageView" />
+            <TextView
+                android:text="Analog-to-digital converter :"
+                android:textSize="25dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="In electronics, an analog-to-digital converter (ADC, A/D, A–D, or A-to-D) is a system that converts an analog signal, such as a sound picked up by a microphone or light entering a digital camera, into a digital signal. An ADC may also provide an isolated measurement such as an electronic device that converts an input analog voltage or current to a digital number proportional to the magnitude of the voltage or current.:"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+
+                android:layout_height="wrap_content"
+                />
+            />
+            <TextView
+                android:text="Digital Signal Processor:"
+                android:textSize="25dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="A digital signal processor (DSP) is a specialized microprocessor (or a SIP block), with its architecture optimized for the operational needs of digital signal processing."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                />
+            <TextView
+                android:text="Digital-to-analog converter :"
+                android:textSize="25dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="In electronics, a digital-to-analog converter (DAC, D/A, D–A, D2A, or D-to-A) is a device that converts a digital signal into an analog signal. "
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            card_view:cardCornerRadius="5dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="List the application of DSP"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="Audio signal processing"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="Audio compression"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="Digital image processing"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="Video compression"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="Speech processing"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="Speech recognition"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="Digital communications"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="Digital synthesizers"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="Radar, sonar"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="Financial signal processing"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="Seismology "
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="Biomedicine "
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            card_view:cardCornerRadius="5dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:text="Write down the advantages and disavdantage of DSP "
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Advantages of DSP"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:textColor="@color/colorAccent"
+                android:layout_height="wrap_content"
+
+                />
+            <TextView
+                android:text="[1] Programmability: a digital system can be programmably changed to change the functionality"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:text="[2] Versatility - Ease of upgrading and Flexibility"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="[3] tability - Less sensitive environmental changes"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+
+                />
+            <TextView
+                android:text="[4] Cost effectiveness"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+
+                />
+            <TextView
+                android:text="[5] Special applications like lossless compression"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+
+                />
+            />
+            <TextView
+                android:text="[6] DSP based systems can be easily modified"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+
+                />
+            <TextView
+                android:text="Disadvantages of DSP :"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:textColor="@color/colorAccent"
+                android:layout_height="wrap_content"
+
+                />
+
+            <TextView
+                android:text="[1] Processing of signals involves more power consumption"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+
+                />
+            <TextView
+                android:text="[2] Processing of signals beyond higher frequencies (beyond GHz) and below lower frequencies (a few Hz) involves limitations"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+
+                />
+            <TextView
+                android:text="[3] Information is lost because we only take samples of the signal at intervals ."
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+
+                />
+
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            card_view:cardCornerRadius="5dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:text="Define Signal"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+
+                />
+
+            <TextView
+                android:text="A signal as referred to in communication systems, signal processing, and electrical engineering is a function that conveys information about the behavior or attributes of some phenomenon"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+
+                />
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            card_view:cardCornerRadius="5dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="Discrete Time Signal"
+                android:textSize="25dp"
+                android:layout_width="match_parent"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="A discrete signal or discrete-time signal is a time series consisting of a sequence of quantities. In other words, it is a time series that is a function over a domain of integers."
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/disc"/>
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            card_view:cardCornerRadius="5dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:text="Continus Time Signal"
+                android:textSize="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="A continuous signal or a continuous-time signal is a varying quantity (a signal) whose domain, which is often time, is a continuum (e.g., a connected interval of the reals)"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/comp"/>
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            card_view:cardCornerRadius="5dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+        <TextView
+                android:text="Periodic  Signal"
+                android:textSize="25dp"
+            android:textColor="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/peri"/>
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            card_view:cardCornerRadius="5dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:text="Unit Step Signal"
+                android:textSize="25dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="Unit step signal means the signal has unit amplitude for positive axis and has zero amplitude for negative axis."
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="There are two types of unit step signal as follows:
+
+1) Discrete time unit step signal
+
+2) Continuous time unit step signal"
+                android:textSize="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/u"/>
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            card_view:cardCornerRadius="5dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Difference between Analog signal and digital signal"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/anavdigi"
+                />
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            card_view:cardCornerRadius="15dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height= "wrap_content"
+                android:text="Analog to Digital Convertion"
+                android:textSize="25dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ad"/>
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            card_view:cardCornerRadius="15dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+
+
+
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Define Sampling"
+                android:textSize="25dp"/>
+
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

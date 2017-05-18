@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="vertical"
+           android:layout_height="wrap_content">
+
+
+           <android.support.v7.widget.CardView
+               xmlns:card_view="http://schemas.android.com/apk/res-auto"
+               xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:paddingTop="10dp"
+               android:paddingBottom="10dp"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               card_view:cardCornerRadius="5dp">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:orientation="vertical">
+
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:orientation="vertical">
+
+                       <TextView
+                           android:id="@+id/textView30"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:text="Barcode"
+
+                           android:textColor="@color/colorPrimary"
+                           android:textSize="30dp"
+                           android:textStyle="bold" />
+
+                       <TextView
+                           android:id="@+id/textView31"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:text="Lines of different widths and sizes representing data,that when read determine what the scanned object is. Barcodes are often used to help organize and index information or prices about an object.
+                Barcodes used by the U.S. postal service that helps speed the delivery of mail is another perfect example of how a barcode could be used. The picture is an example of what a barcode of an address."
+
+                           android:textSize="20dp" />
+
+                       <ImageView
+                           android:id="@+id/imageView10"
+android:src="@drawable/bar"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content" />
+
+                       <TextView
+
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:text="How does a barcode work?"
+
+                           android:textColor="@color/colorPrimary"
+                           android:textSize="30dp"
+                           android:textStyle="bold" />
+
+                       <TextView
+
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:text="
+Each character is represented by a pattern of wide and narrow bars.  A barcode reader uses a photosensor to convert the barcode into an electrical signal as it moves across a barcode.  The scanner then measures the relative widths of the bars and spaces, translates the different patterns back into regular characters, and sends them on to a computer or portable terminal.
+Every barcode begins with a special start character and ends with a special stop character. These codes help the reader detect the barcode and figure out whether it is being scanned forward or backward.
+"
+
+                           android:textSize="20dp" />
+
+                       <TextView
+
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:text="The application of barcode"
+
+                           android:textColor="@color/colorPrimary"
+                           android:textSize="30dp"
+                           android:textStyle="bold" />
+
+                       <TextView
+
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:text="Barcodes are generally used to help track inventory, but there are many more possibilities and interesting ways to use them. In this post, we’ll take a look at some of the more creative applications of barcodes."
+
+                           android:textSize="20dp" />
+
+                       <TextView
+
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:text="•Barcodes are used in admission tickets in movie theaters and other events to uniquely identify and verify the validity of the ticket before the customer can enter the theater or the event."
+
+                           android:textSize="20dp" />
+
+                       <TextView
+
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:text="•Advertisers are taking advantage of barcodes by using them to reach out to customers in a more interactive, interesting, and unique way. "
+
+                           android:textSize="20dp" />
+
+                       <TextView
+                           android:id="@+id/textView38"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:text="•Games that needed the use of barcodes have been around since the 90s. There are actually consoles created specifically for these games."
+
+                           android:textSize="20dp" />
+
+                       <TextView
+                           android:id="@+id/textView39"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:text="•There are actually some apps that help you keep track of the food you eat through barcodes. "
+
+                           android:textSize="20dp" />
+
+                       <TextView
+                           android:id="@+id/textView40"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:text="•Barcodes have become so popular that they have been used as inspiration for art and architecture. "
+
+                           android:textSize="20dp"
+
+                           />
+
+                       <TextView
+                           android:id="@+id/textView41"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:text="•Just because you have a very small product doesn’t mean you can’t come up with a creative way to track it using barcodes. Tootsie Pops have barcodes on their sticks!"
+
+                           android:textSize="20dp" />
+
+
+                   </LinearLayout>
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+           <android.support.v7.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:layout_marginTop="5dp"
+               android:paddingBottom="10dp"
+               android:paddingTop="10dp"
+               card_view:cardCornerRadius="5dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:padding="10dp">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="What is relay circuit? Explain the working principle of relay circuit." />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Relays are switches that open and close circuits electromechanically or electronically. Relays control one electrical circuit by opening and closing contacts in another circuit." />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Types of Relays:" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Solid State" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text=" Electromechanical" />
+
+                   <ImageView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/relay" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="The diagram shows an inner section diagram of a relay. An iron core is surrounded by a control coil. As shown, the power source is given to the electromagnet through a control switch and through contacts to the load. When current starts flowing through the control coil, the electromagnet starts energizing and thus intensifies the magnetic field. Thus the upper contact arm starts to be attracted to the lower fixed arm and thus closes the contacts causing a short circuit for the power to the load. On the other hand, if the relay was already de-energized when the contacts were closed, then the contact move oppositely and make an open circuit.
+
+As soon as the coil current is off, the movable armature will be returned by a force back to its initial position. This force will be almost equal to half the strength of the magnetic force. This force is mainly provided by two factors. They are the spring and also gravity.
+
+Relays are mainly made for two basic operations. One is low voltage application and the other is high voltage. For low voltage applications, more preference will be given to reduce the noise of the whole circuit. For high voltage applications, they are mainly designed to reduce a phenomenon called arcing." />
+
+
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+           <android.support.v7.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:layout_marginTop="5dp"
+               android:paddingBottom="10dp"
+               android:paddingTop="10dp"
+               card_view:cardCornerRadius="5dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:padding="10dp">
+
+
+                   <TextView
+                       android:id="@+id/textView33"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Stepper motor Interfacing"
+                       android:textColor="@color/colorPrimary"
+                       android:textSize="30dp"
+                       android:textStyle="bold" />
+
+                   <TextView
+                       android:id="@+id/textView34"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="A stepper motor is a device that translates electrical pulses into mechanical movement.The steper motor rotates in steps in response to the applied signals.It is used in applications such as disk drives,dot matrix printers,plotters and robotics.It is mainly used for position control."
+                       android:textSize="20dp" />
+
+                   <ImageView
+                       android:id="@+id/imageView3"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/step" />
+
+                   <TextView
+                       android:id="@+id/textView35"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:gravity="center"
+                       android:text="Interface using L293D - H-Bridge Motor Driver"
+                       android:textColor="@color/colorPrimary"
+                       android:textSize="20dp"
+                       android:textStyle="bold" />
+
+                   <TextView
+                       android:id="@+id/textView32"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:padding="3dp"
+                       android:text="There are actually many ways you can interface a stepper motor to your controller, out of them the most used interface is shown above.The above mentioned methods need 4 controller pins for interface."
+                       android:textSize="20dp" />
+
+                   <TextView
+                       android:id="@+id/textView36"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="As we see in the circuit above the four pins Controller pin 1,2,3 and 4 will control the motion and direction of the stepper motor according to the step sequence programmed in the controller."
+                       android:textSize="20dp" />
+
+                   <ImageView
+                       android:id="@+id/imageView5"
+                       android:layout_width="match_parent"
+                       android:layout_height="300dp"
+                       android:src="@drawable/mot" />
+
+                   <TextView
+                       android:id="@+id/textView37"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="As in above examples, Stepper Motor rotating in full mode takes 4 steps to complete a revolution, So step angle can be calculated as...
+
+Step Angle ø = 360° / 4 = 90°
+
+and in case of half mode step angle gets half so 45°."
+                       android:textSize="20dp" />
+
+                   <ImageView
+                       android:id="@+id/imageView6"
+                       android:layout_width="match_parent"
+                       android:layout_height="300dp"
+                       android:src="@drawable/step3" />
+
+
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+           <android.support.v7.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:layout_marginTop="5dp"
+               android:paddingBottom="10dp"
+               android:paddingTop="10dp"
+               card_view:cardCornerRadius="5dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:padding="10dp">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Discuss the working principle of stepper motor with appropriate figure." />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="" />
+
+
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+           <android.support.v7.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:layout_marginTop="5dp"
+               android:paddingBottom="10dp"
+               android:paddingTop="10dp"
+               card_view:cardCornerRadius="5dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:padding="10dp">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Describe the construction and operation of cathode ray tube" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Constructions :" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="What are the parts of Cathode ray tube?" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="1.	Electron gun assembly " />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="2.	Deflection plate assembly for deflection of electron beam " />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="3.	Fluorescent screen for production of displaying " />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="4.	Glass envelope to assemble whole cathode ray tube " />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="5.	Base to provide connection to external circuitry " />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Operation of CRT" />
+
+                   <ImageView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/crt" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Cathode Ray Tube (CRT) is a computer display screen, used to display the output in a standard composite video signal. The working of CRT depends on movement of an electron beam which moves back and forth across the back of the screen. The source of the electron beam is the electron gun; the gun is located in the narrow, cylindrical neck at the extreme rear of a CRT which produces a stream of electrons through thermionic emission. Usually, A CRT has a fluorescent screen to display the output signal. A simple CRT is shown in below." />
+
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+       </LinearLayout>
+
+
+
+   </ScrollView>
+</RelativeLayout>

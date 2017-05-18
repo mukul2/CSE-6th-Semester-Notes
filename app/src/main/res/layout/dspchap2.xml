@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            card_view:cardCornerRadius="15dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:text="What is discrete fourier transform"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:id="@+id/textView6" />
+
+            <TextView
+                android:text="The discrete fourier transform (DFT) is a specific kind of Fourier Transform used in Fourier analysis.It transforms one function into another,which is called the frequency domain representation,or simply the (DFT),of the original function(whioh is often a function in the time domain)."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:id="@+id/textView7" />
+            <TextView
+                android:text="A DFT is simply a name given to fourier transformation when it is applied in digital (discrete) rather than an analog signal"
+                android:layout_width="match_parent"
+                android:textSize="20dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="DFT is defined as-"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="The sequence of N complex number X1,. . . . Xn-1 is tranfsormed into the sequence of N complex numbers X0,.......Xn-1 by the DFT according to the formula : "
+                android:layout_width="match_parent"
+                android:textSize="20dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dtf1"
+                android:id="@+id/imageView3" />
+            <TextView
+                android:text="Where i is the imaginary unit."
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dft2"
+                android:id="@+id/imageView4" />
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            card_view:cardCornerRadius="15dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:text="What is inverse DFT"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="Inverse DFT is given by :"
+                android:layout_width="match_parent"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/idft" />
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            card_view:cardCornerRadius="15dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:text="What is FFT "
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="The fast Fourier transform (FFT) is a discrete Fourier transform algorithm which reduces the number of computations needed for N points from 2N^2 to 2NlgN, where lg is the base-2 logarithm. "
+                android:layout_width="match_parent"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="Fast Fourier transform algorithms generally fall into two classes: decimation in time, and decimation in frequency. The Cooley-Tukey FFT algorithm first rearranges the input elements in bit-reversed order, then builds the output transform (decimation in time). The basic idea is to break up a transform of length  N into two transforms of length N/2 using the identity"
+                android:layout_width="match_parent"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="Some FFt algorithms are"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="
+                Cooley Tukey algorithm
+
+                Prime-factor FFT algorithm
+
+                Raders FFT algorithm
+
+                Blue-steins FFT algorithm"
+                android:layout_width="match_parent"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            card_view:cardCornerRadius="15dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:text="Why FFT is needed"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="FT is needed for spectrum analysis, FFT is fast FT meaning it is used to obtain spectrum of a signal quickly, the FFT algorithm inherently is fast algorithm than the conventional FT algorithm.It is well known that the Fourier Transform (FT) has currently a key role in signal processing applications. The FT is useful for frequency domain analysis of a signal, i.e. it transposes a signal from time domain into frequency domain."
+                android:layout_width="match_parent"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            card_view:cardCornerRadius="15dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:text="What are the applications of FFT algorithm"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="Some of the important applications of FFT includes,
+                Fast large integer and polynomial multiplication
+                Efficient matrix-vector multiplication for Toeplitz, circulant and other structured matrices
+                Filtering algorithms
+                Fast algorithms for discrete cosine or sine transforms (example, Fast DCT used for JPEG, MP3/MPEG encoding)
+                Fast Chebyshev approximation
+                Fast discrete Hartley transform
+                Solving difference equations"
+                android:layout_width="match_parent"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            card_view:cardCornerRadius="15dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:text="What is DTFT"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:text="The DTFT is a transformation that maps Discrete-time (DT) signal x[n] into a complex valued function of the real variable w, namely: "
+                android:layout_width="match_parent"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dtft"
+                android:id="@+id/imageView5" />
+
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,254 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+
+
+            android:title="Parallel Chapter 1"
+
+            />
+
+
+        <item
+
+
+            android:title="parallel processing"
+
+            />
+        <item
+
+
+            android:title="Flyns classification" />
+        <item
+
+
+            android:title="VAX 8600" />
+        <item
+
+
+            android:title="intel i860" />
+
+        <item
+
+
+            android:title="Dual operation in i860" />
+
+        <item
+
+
+            android:title="Pipelining Concept" />
+        <item
+
+
+            android:title="Superscaler Processor" />
+        <item
+
+
+            android:title="Mismatch btn sw-hw" />
+
+        <item
+
+
+            android:title="Mismatch solve" />
+
+        <item
+
+
+            android:title="Parallel Chapter 2" />
+        <item
+
+
+            android:title="Distributed System" />
+        <item
+
+
+            android:title="Advantages" />
+
+        <item
+
+
+            android:title="Disadvantages" />
+
+        <item
+
+
+            android:title="Architechtural Model" />
+        <item
+
+
+            android:title="Loosely Coupled" />
+        <item
+
+
+            android:title="Tighly Coupled" />
+
+        <item
+
+
+            android:title="Distributed Coputing Model" />
+
+        <item
+
+
+            android:title="Diskless Workstation" />
+        <item
+
+
+            android:title="RPC" />
+        <item
+
+
+            android:title="Parallel Chapter 3" />
+
+        <item
+
+
+            android:title="Distributed OS" />
+
+        <item
+
+
+            android:title="Issues in Distributed OS design" />
+        <item
+
+
+            android:title="Design factors of D O S" />
+        <item
+
+
+            android:title="Fault" />
+
+        <item
+
+
+            android:title="Types of Fault" />
+
+        <item
+
+
+            android:title="TMR" />
+        <item
+
+
+            android:title="Distri. File System" />
+        <item
+
+
+            android:title="File service" />
+
+        <item
+
+
+            android:title="Parallel Chapter 4" />
+
+        <item
+
+
+            android:title="IBM RS/6000" />
+        <item
+
+
+            android:title="Physical models of share multi pro." />
+        <item
+
+
+            android:title="UMA" />
+
+        <item
+
+
+            android:title="NUMA" />
+
+        <item
+
+
+            android:title="COMA" />
+        <item
+
+
+            android:title="Implicit Parallelism" />
+        <item
+
+
+            android:title="Explicit Parallelism" />
+
+        <item
+
+
+            android:title="Advantage of Parallel Comp" />
+
+        <item
+
+
+            android:title="SIMD vs MIMD" />
+        <item
+
+
+            android:title="Multi pro. vs Message Pass" />
+        <item
+
+
+            android:title="Cycles per Instructions" />
+
+        <item
+
+
+            android:title="Parallel Chapter 5" />
+        <item
+
+
+            android:title="Throughput rate" />
+        <item
+
+
+            android:title="Architechure of parallel processing" />
+
+        <item
+
+
+            android:title="Shared  memory" />
+
+        <item
+
+
+            android:title="Shared disk" />
+
+        <item
+
+
+            android:title="Shared nothing" />
+
+        <item
+
+
+            android:title="Data dependency" />
+
+        <item
+
+
+            android:title="Different program flow mechanism" />
+
+        <item
+
+
+            android:title="Control flow mechanism" />
+
+        <item
+
+
+            android:title="Data flow mechanism" />
+        <item
+
+
+            android:title="Hardware parallesim" />
+
+
+        <item
+
+
+            android:title="Software parallesim" />
+
+    </group>
+</menu>
